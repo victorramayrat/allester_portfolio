@@ -70,8 +70,8 @@ export default function Home() {
           content="Allester Ramayrat - software engineer, data science, python developer, UCSB graduate, san jose california"
         />
       </Head>
-      <Container className="h-screen flex flex-col justify-center">
-        <div className="max-w-5xl">
+      <div className="px-4 sm:px-12 md:px-18 lg:px-28 h-screen flex flex-col justify-center">
+        <div className="mx-auto max-w-4xl">
           <h2 className="leading-tight text-teal-600 dark:text-teal-400">
             Hi, my name is
           </h2>
@@ -96,7 +96,7 @@ export default function Home() {
               icon={LinkedInIcon}
             />
             <SocialLink
-              href="https://instagram.com/allesterramayrat"
+              href="https://instagram.com/allesterramayrat/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
@@ -107,7 +107,7 @@ export default function Home() {
             />*/}
           </div>
         </div>
-      </Container>
+      </div>
       <Container id="about" className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">

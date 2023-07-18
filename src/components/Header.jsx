@@ -363,7 +363,7 @@ export function Header() {
           style={{ position: 'var(--header-position)' }}
         >
           <div
-            className=" px-4 sm:px-8 lg:px-12 top-[var(--header-top,theme(spacing.6))] w-full"
+            className=" px-4 sm:px-12 top-[var(--header-top,theme(spacing.6))] w-full"
             style={{ position: 'var(--header-inner-position)' }}
           >
             <div className="relative flex gap-4">
