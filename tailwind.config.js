@@ -9,8 +9,8 @@ module.exports = {
         clamp: "clamp(2.25rem, 8vw, 5rem)",
       },
       animation: {
-        fade: "fadeIn 2s",
-        drop: "moveDown 2s"
+        fade: "fadeIn 1s",
+        drop: "moveDown 1s"
       },
       keyframes: theme => ({
         fadeIn: {
