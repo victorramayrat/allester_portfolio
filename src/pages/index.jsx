@@ -70,7 +70,45 @@ export default function Home() {
           content="Allester Ramayrat - software engineer, data science, python developer, UCSB graduate, san jose california"
         />
       </Head>
-      <Container className="mt-16 sm:mt-32">
+      <Container className="mt-9 h-screen flex flex-col justify-center">
+        <div className="max-w-5xl">
+          <h2 className="leading-tight text-teal-600 dark:text-teal-400">
+            Hi, my name is
+          </h2>
+          <h1 className="mt-6 text-clamp font-bold leading-none tracking-tight text-zinc-800 dark:text-zinc-100">
+            Allester Ramayrat.
+          </h1>
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            I’m Spencer, a software designer and entrepreneur based in New York
+            City. I’m the founder and CEO of Planetaria, where we develop
+            technologies that empower regular people to explore space on their
+            own terms.
+          </p>
+          <div className="mt-6 flex gap-6">
+            <SocialLink
+              href="https://twitter.com"
+              aria-label="Follow on Twitter"
+              icon={TwitterIcon}
+            />
+            <SocialLink
+              href="https://instagram.com"
+              aria-label="Follow on Instagram"
+              icon={InstagramIcon}
+            />
+            <SocialLink
+              href="https://github.com"
+              aria-label="Follow on GitHub"
+              icon={GitHubIcon}
+            />
+            <SocialLink
+              href="https://linkedin.com"
+              aria-label="Follow on LinkedIn"
+              icon={LinkedInIcon}
+            />
+          </div>
+        </div>
+      </Container>
+      <Container id="about" className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">
             <div className="max-w-xs px-2.5 lg:max-w-none">
