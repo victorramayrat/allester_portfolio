@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
@@ -60,6 +61,35 @@ function MailIcon(props) {
   )
 }
 
+function useIntersectionObserver(
+	elementRef,
+	{ threshold = 0, root = null, rootMargin = '0%', freezeOnceVisible = false }
+) {
+	const [entry, setEntry] = useState();
+
+	const frozen = entry?.isIntersecting && freezeOnceVisible;
+
+	const updateEntry = ([entry]) => {
+		setEntry(entry);
+	};
+
+	useEffect(() => {
+		const node = elementRef?.current;
+		const hasIOSupport = !!window.IntersectionObserver;
+
+		if (!hasIOSupport || frozen || !node) return;
+
+		const observerParams = { threshold, root, rootMargin };
+		const observer = new IntersectionObserver(updateEntry, observerParams);
+
+		observer.observe(node);
+
+		return () => observer.disconnect();
+	}, [elementRef, threshold, root, rootMargin, frozen]);
+
+	return entry;
+}
+
 export default function Home() {
   return (
     <>
@@ -72,34 +102,49 @@ export default function Home() {
       </Head>
       <div className="px-4 sm:px-12 md:px-18 lg:px-28 h-screen flex flex-col justify-center">
         <div className="mx-auto max-w-4xl">
-          <h2 className="leading-tight text-teal-600 dark:text-teal-400">
-            Hi, my name is
-          </h2>
-          <h1 className="mt-6 text-clamp font-bold leading-none tracking-tight text-zinc-800 dark:text-zinc-100">
-            Allester Ramayrat.
-          </h1>
-          <h1 className="mt-6 text-clamp font-bold leading-none tracking-tight text-zinc-800 dark:text-zinc-400">
-            I build things from data.
-          </h1>
-          <p className="mt-6 text-base max-w-screen-sm text-zinc-600 dark:text-zinc-400">
-            I’m a data scientist specializing in generating powerful insights driven by data. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.
-          </p>
+          <div className="animate-fade" style={{"animation-delay": "500ms", "animation-fill-mode": "both"}}>
+            <h2 className="leading-tight text-teal-600 dark:text-teal-400">
+              Hi, my name is
+            </h2>
+          </div>
+          <div className="animate-fade" style={{"animation-delay": "600ms", "animation-fill-mode": "both"}}>
+            <h1 className="mt-6 text-clamp font-bold leading-none tracking-tight text-zinc-800 dark:text-zinc-100">
+              Allester Ramayrat.
+            </h1>
+          </div>
+          
+          <div className="animate-fade" style={{"animation-delay": "700ms", "animation-fill-mode": "both"}}>
+            <h1 className="mt-6 text-clamp font-bold leading-none tracking-tight text-zinc-800 dark:text-zinc-400" >
+              I build things from data.
+            </h1>
+          </div>
+          <div className="animate-fade" style={{"animation-delay": "800ms", "animation-fill-mode": "both"}}>
+            <p className="mt-6 text-base max-w-screen-sm text-zinc-600 dark:text-zinc-400">
+              I’m a data scientist specializing in generating powerful insights driven by data. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.
+            </p>
+          </div>
           <div className="mt-6 flex gap-6">
-            <SocialLink
-              href="https://github.com/allester"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="https://linkedin.com/in/allester/"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
-            />
-            <SocialLink
-              href="https://instagram.com/allesterramayrat/"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
+            <div className="animate-fade" style={{"animation-delay": "900ms", "animation-fill-mode": "both"}}>
+              <SocialLink
+                href="https://github.com/allester"
+                aria-label="Follow on GitHub"
+                icon={GitHubIcon}
+              />
+            </div>
+            <div className="animate-fade" style={{"animation-delay": "1000ms", "animation-fill-mode": "both"}}>
+              <SocialLink
+                href="https://linkedin.com/in/allester/"
+                aria-label="Follow on LinkedIn"
+                icon={LinkedInIcon}
+              />
+            </div>
+            <div className="animate-fade" style={{"animation-delay": "1100ms", "animation-fill-mode": "both"}}>
+              <SocialLink
+                href="https://instagram.com/allesterramayrat/"
+                aria-label="Follow on Instagram"
+                icon={InstagramIcon}
+              />
+            </div>
             {/*<SocialLink
               href="https://twitter.com"
               aria-label="Follow on Twitter"
@@ -108,58 +153,60 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Container id="about" className="mt-16 sm:mt-32">
-        <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
-          <div className="lg:pl-20">
-            <div className="max-w-xs px-2.5 lg:max-w-none">
-              <Image
-                src={portraitImage}
-                alt=""
-                sizes="(min-width: 1024px) 32rem, 20rem"
-                className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
-              />
+      <AnimationOnScroll animateIn="animate-fade" animateOnce="true">
+        <Container id="about" className="mt-16 sm:mt-32">
+          <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
+            <div className="lg:pl-20">
+              <div className="max-w-xs px-2.5 lg:max-w-none">
+                <Image
+                  src={portraitImage}
+                  alt=""
+                  sizes="(min-width: 1024px) 32rem, 20rem"
+                  className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+                />
+              </div>
+            </div>
+            <div className="lg:order-first lg:row-span-2">
+              <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+                About Me <br /> I'm Allester, your next Data Scientist.
+              </h1>
+              <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+              <p>Thank you for taking the time to read my background. I have always been interested in problem solving especially in the context of data science, analytics, and/or machine learning. At the moment, I am also exploring topics on large language model applications.  I am also an avid painter and dancer.</p>
+
+              <p>I was born and raised in the Bay Area. I currently reside in downtown San Jose. I developed an interest in computers and gaming at an early age, starting with MMORPG World of Warcraft. I attended UC Santa Barbara, earning my bachelor’s degree in statistics and data science last Spring (June 2023).</p>
+
+              <p>While pursuing my degree, I worked in a part-time capacity as a Junior Data Scientist for Vintra (acq. by Alarm.com) where I worked on creating KPI dashboards for the product and sales team. The highlight of my work at Vintra was when I presented a dashboard I built as a product feature to one of the execs at a large social media company. That was a great experience.</p>
+
+              <p>I love to explore new technologies and challenges. I am eager to learn new things and improve my developer skills. I am looking to join a product engineering team as a technical Data Scientist or Software Engineer - Python developer.</p>
+              </div>
+            </div>
+            <div className="lg:pl-20">
+              <ul role="list">
+                <SocialLink href="https://github.com/allester" icon={GitHubIcon} className="mt-4">
+                  Code work on GitHub
+                </SocialLink>
+                <SocialLink href="https://linkedin.com/in/allester" icon={LinkedInIcon} className="mt-4">
+                  My profile on LinkedIn
+                </SocialLink>
+                <SocialLink href="https://twitter.com/allester" icon={TwitterIcon} className="mt-4">
+                  Connect with me on Twitter
+                </SocialLink>
+                <SocialLink href="mailto:allester@ramayrat.com" icon={MailIcon} className="mt-4">
+                Contact me via e-mail
+                </SocialLink>
+                <SocialLink
+                  href="https://docs.google.com/document/d/1kY6UxCejPVzf7jLrRzyUh4bV4sMTeHCWSfrHjc2daes/edit?usp=sharing"
+                  icon={BriefcaseIcon}
+                  target="_blank"
+                  className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
+                >
+                  Download my CV
+                </SocialLink>
+              </ul>
             </div>
           </div>
-          <div className="lg:order-first lg:row-span-2">
-            <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Hello 👋. <br /> I'm Allester, your next Data Scientist.
-            </h1>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-            <p>Thank you for taking the time to read my background. I have always been interested in problem solving especially in the context of data science, analytics, and/or machine learning. At the moment, I am also exploring topics on large language model applications.  I am also an avid painter and dancer.</p>
-
-            <p>I was born and raised in the Bay Area. I currently reside in downtown San Jose. I developed an interest in computers and gaming at an early age, starting with MMORPG World of Warcraft. I attended UC Santa Barbara, earning my bachelor’s degree in statistics and data science last Spring (June 2023).</p>
-
-            <p>While pursuing my degree, I worked in a part-time capacity as a Junior Data Scientist for Vintra (acq. by Alarm.com) where I worked on creating KPI dashboards for the product and sales team. The highlight of my work at Vintra was when I presented a dashboard I built as a product feature to one of the execs at a large social media company. That was a great experience.</p>
-
-            <p>I love to explore new technologies and challenges. I am eager to learn new things and improve my developer skills. I am looking to join a product engineering team as a technical Data Scientist or Software Engineer - Python developer.</p>
-            </div>
-          </div>
-          <div className="lg:pl-20">
-            <ul role="list">
-              <SocialLink href="https://github.com/allester" icon={GitHubIcon} className="mt-4">
-                Code work on GitHub
-              </SocialLink>
-              <SocialLink href="https://linkedin.com/in/allester" icon={LinkedInIcon} className="mt-4">
-                My profile on LinkedIn
-              </SocialLink>
-              <SocialLink href="https://twitter.com/allester" icon={TwitterIcon} className="mt-4">
-                Connect with me on Twitter
-              </SocialLink>
-              <SocialLink href="mailto:allester@ramayrat.com" icon={MailIcon} className="mt-4">
-              Contact me via e-mail
-              </SocialLink>
-              <SocialLink
-                href="https://docs.google.com/document/d/1kY6UxCejPVzf7jLrRzyUh4bV4sMTeHCWSfrHjc2daes/edit?usp=sharing"
-                icon={BriefcaseIcon}
-                target="_blank"
-                className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
-              >
-                Download my CV
-              </SocialLink>
-            </ul>
-          </div>
-        </div>
-      </Container>
+        </Container>
+      </AnimationOnScroll>
     </>
   )
 }

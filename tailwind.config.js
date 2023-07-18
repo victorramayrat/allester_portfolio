@@ -9,11 +9,16 @@ module.exports = {
         clamp: "clamp(2.25rem, 8vw, 5rem)",
       },
       animation: {
-        fade: "fadeIn 2s"
+        fade: "fadeIn 2s",
+        drop: "moveDown 2s"
       },
       keyframes: theme => ({
         fadeIn: {
           '0%': { opacity: '0%' , transform: 'translateY(25%)'},
+          '100%': { opacity: '100%' , transform: 'translateY(0%)'},
+        },
+        moveDown: {
+          '0%': { opacity: '0%' , transform: 'translateY(-25%)'},
           '100%': { opacity: '100%' , transform: 'translateY(0%)'},
         },
       }),

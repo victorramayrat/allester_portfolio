@@ -367,16 +367,16 @@ export function Header() {
             style={{ position: 'var(--header-inner-position)' }}
           >
             <div className="relative flex gap-4">
-              <div className="flex flex-1">
+              <div className="flex flex-1 animate-drop" style={{"animation-delay": "100ms", "animation-fill-mode": "both"}}>
                   <AvatarContainer>
                     <Avatar />
                   </AvatarContainer>
               </div>
-              <div className="flex flex-1 justify-end md:justify-center">
+              <div className="flex flex-1 justify-end md:justify-center animate-drop" style={{"animation-delay": "200ms", "animation-fill-mode": "both"}}>
                 <MobileNavigation className="pointer-events-auto md:hidden" />
                 <DesktopNavigation className="pointer-events-auto hidden md:block" />
               </div>
-              <div className="flex justify-end md:flex-1">
+              <div className="flex justify-end md:flex-1 animate-drop" style={{"animation-delay": "300ms", "animation-fill-mode": "both"}}>
                 <div className="pointer-events-auto">
                   <ModeToggle />
                 </div>
