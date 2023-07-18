@@ -351,7 +351,7 @@ export function Header() {
   return (
     <>
       <header
-        className="pointer-events-none w-full fixed top-0 z-50 flex flex-col"
+        className="pointer-events-none fixed top-0 relative z-50 flex flex-col"
         style={{
           height: 'var(--header-height)',
           marginBottom: 'var(--header-mb)',
@@ -362,8 +362,8 @@ export function Header() {
           className="top-0 z-10 h-16 pt-6"
           style={{ position: 'var(--header-position)' }}
         >
-          <Container
-            className="top-[var(--header-top,theme(spacing.6))] w-full"
+          <div
+            className=" px-4 sm:px-8 lg:px-12 top-[var(--header-top,theme(spacing.6))] w-full"
             style={{ position: 'var(--header-inner-position)' }}
           >
             <div className="relative flex gap-4">
@@ -382,7 +382,7 @@ export function Header() {
                 </div>
               </div>
             </div>
-          </Container>
+          </div>
         </div>
       </header>
       {isHomePage && <div style={{ height: 'var(--content-offset)' }} />}
