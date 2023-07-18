@@ -23,7 +23,7 @@ export default function App({ Component, pageProps, router }) {
     <>
       <div className="relative">
         <Header />
-        <main class="max-w-screen-2xl">
+        <main>
           <Component previousPathname={previousPathname} {...pageProps} />
         </main>
         <Footer />
