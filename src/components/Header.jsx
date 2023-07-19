@@ -352,7 +352,7 @@ export function Header() {
   return (
     <>
       <header
-        className="pointer-events-none fixed top-0 relative z-50 flex flex-col"
+        className="pointer-events-none fixed w-full top-0 z-50 flex flex-col"
         style={{
           height: 'var(--header-height)',
           marginBottom: 'var(--header-mb)',
@@ -386,7 +386,6 @@ export function Header() {
           </div>
         </div>
       </header>
-      {isHomePage && <div style={{ height: 'var(--content-offset)' }} />}
     </>
   )
 }
