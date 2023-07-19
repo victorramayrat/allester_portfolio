@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import { Title } from './title'
-import { About } from './about'
-import { Experience } from './experience'
+import { Title } from '../components/title'
+import { About } from '../components/about'
+import { Experience } from '../components/experience'
 
 export default function Home() {
   return (
