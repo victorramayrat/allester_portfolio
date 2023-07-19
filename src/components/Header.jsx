@@ -352,7 +352,7 @@ export function Header() {
   return (
     <>
       <header
-        className="pointer-events-none fixed w-full top-0 z-50 flex flex-col"
+        className="pointer-events-none relative w-full top-0 z-50 flex flex-col"
         style={{
           height: 'var(--header-height)',
           marginBottom: 'var(--header-mb)',
