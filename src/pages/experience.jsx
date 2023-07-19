@@ -4,7 +4,7 @@ import { Card } from '@/components/Card'
 import { Section } from '@/components/Section'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
-function SpeakingSection({ children, ...props }) {
+export function SpeakingSection({ children, ...props }) {
   return (
     <Section {...props}>
       <div className="space-y-16">{children}</div>
@@ -12,7 +12,7 @@ function SpeakingSection({ children, ...props }) {
   )
 }
 
-function Appearance({ title, description, event, cta, href }) {
+export function Appearance({ title, description, event, cta, href }) {
   return (
     <Card as="article">
       <Card.Title as="h3" href={href}>
@@ -25,7 +25,7 @@ function Appearance({ title, description, event, cta, href }) {
   )
 }
 
-export default function Experience() {
+export function Experience() {
   return (
     <>
       <Head>

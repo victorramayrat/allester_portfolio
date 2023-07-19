@@ -141,6 +141,7 @@ function NavItem({ href, children }) {
     <li>
       <Link
         href={href}
+        scroll={false}
         className={clsx(
           'relative block px-3 py-2 transition',
           isActive
