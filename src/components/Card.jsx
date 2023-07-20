@@ -19,7 +19,7 @@ export function Card({ as: Component = 'div', className, children }) {
     <Component
       className={clsx(className, 'group relative flex flex-col items-start')}
     >
-      <div class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+      <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
       {children}
       
     </Component>
@@ -39,29 +39,29 @@ Card.Link = function CardLink({ children, ...props }) {
 
 Card.Title = function CardTitle({ as: Component = 'h2', href, children }) {
   return (
-    <Component className="text-base  z-10 font-semibold tracking-tight text-zinc-800 dark:text-zinc-100 group-hover:text-teal-500">
+    <Component className="text-base z-10 font-semibold tracking-tight text-zinc-800 dark:text-zinc-100 group-hover:text-teal-500 transition group-hover:scale-110">
       {href ? <Card.Link href={href}>{children}</Card.Link> : children}
     </Component>
   )
 }
 
-Card.Description = function CardDescription({ children }) {
+Card.Description = function CardDescription({children }) {
   return (
-    <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+    <ul className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
       {children}
-    </p>
+    </ul>
   )
 }
 
-Card.Cta = function CardCta({ children }) {
+Card.Cta = function CardCta({children}) {
   return (
-    <div
-      aria-hidden="true"
-      className="relative z-10 mt-4 flex items-center text-sm font-medium hover:text-teal-500"
-    >
-      {children}
-      <ChevronRightIcon className="ml-1 h-4 w-4 stroke-current" />
-    </div>
+      <div
+        aria-hidden="true"
+        className="relative z-20 mt-4 flex items-center text-sm font-medium text-zinc-700 dark:text-zinc-200 hover:text-teal-500 dark:hover:text-teal-500 transition hover:scale-110"
+      >
+        {children}
+        <ChevronRightIcon className="h-4 w-4 stroke-current" />
+      </div>
   )
 }
 

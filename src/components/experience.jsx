@@ -1,5 +1,19 @@
 import { Card } from '@/components/Card'
 
+function Badge({children}) {
+  return (
+    <span className="inline-flex items-center z-10 rounded-md bg-blue-50 dark:bg-blue-400/10 mt-4 px-2 py-1 text-xs font-medium text-blue-700 dark:text-blue-400 ring-1 ring-inset ring-blue-700/10 dark:ring-blue-400/30">{children}</span>
+  )
+}
+
+function Items({children}) {
+  return (
+    <div className='z-20 flex space-x-2'>
+      {children}
+    </div>
+  )
+}
+
 export function Experience() {
   return (
     <>
@@ -15,18 +29,36 @@ export function Experience() {
         <div className="mx-auto mt-16">
           <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
             <div className="flex max-w-3xl flex-col space-y-16">
-              <project className="md:grid md:grid-cols-4 md:items-baseline">
-                  <Card className="md:col-span-3">
-                    <Card.Title>Data Science Fellow @ CCBER</Card.Title>
-                    <Card.Description>Here's a description</Card.Description>
-                    <Card.Cta>Read project</Card.Cta>
-                  </Card>
-                <Card.Eyebrow>JAN 2023 - PRESENT</Card.Eyebrow>
-              </project>
+              <a className="z-0" href='https://www.ccber.ucsb.edu/' target="_blank">
+                <project className="md:grid md:grid-cols-4 md:items-baseline">
+                      <Card className="md:col-span-3">
+                        <Card.Title>Data Science Fellow @ CCBER</Card.Title>
+                        <Card.Description>
+                          <li>- Built a Photogrammetry Pipeline (Metashape) for reconstructing 3D bee models to generate comprehensive bee trait and image datasets; aided in the biological study of image and anatomical trait digitization of bees (Big Bee Project)</li>
+                          <li>- Reduced Reprojection Error (pix) from 0.84 to 0.41 and processing time by 75% of pre-existing bee models through improving data collection, data augmentation, and parameter tuning on 16+ photo sets containing 145+ macro images</li>
+                          <li>- Trained an object detection model (YOLOv8) on 8000+ labeled bee image data from 3D models and iNaturalist to recognize video frames featuring bees to reduce video analysis and image extraction time from hours to minutes.</li>
+                        </Card.Description>
+                        <Items>
+                          <Card.Cta className="float-left" >Interim Report</Card.Cta>
+                          <Card.Cta className="float-left">Read project</Card.Cta>
+                        </Items>
+                        <Items>
+                          <Badge>Python</Badge>
+                          <Badge>Metashape</Badge>
+                          <Badge>YOLOv8</Badge>
+                        </Items>
+                    </Card>
+                  <Card.Eyebrow>JAN 2023 - PRESENT</Card.Eyebrow>
+                </project>
+              </a>
               <project className="md:grid md:grid-cols-4 md:items-baseline">
                   <Card className="md:col-span-3">
                     <Card.Title>Data Scientist (Part-Time) @ Vintra, Inc.</Card.Title>
-                    <Card.Description>Here's a description</Card.Description>
+                    <Card.Description>● Built the Cloud Product User Activity Dashboard (Tableau) to display user activity on the cloud product; created an
+automated ETL pipeline (Google Apps Scripts) utilizing Vintra’s API to access the cloud product database (MongoDB)
+● Innovated the Density Mapping Tool to dynamically change Tableau backgrounds based on applied aggregations
+through the development of non-OOTB features in Tableau (Google Cloud Storage)
+</Card.Description>
                     <Card.Cta>Read project</Card.Cta>
                   </Card>
                 <Card.Eyebrow>SEP 2021 - DEC 2022</Card.Eyebrow>
@@ -34,7 +66,11 @@ export function Experience() {
               <project className="md:grid md:grid-cols-4 md:items-baseline">
                 <Card className="md:col-span-3">
                   <Card.Title>Data Science Intern @ <a href="https://vintra.io/" target='_blank'>Vintra, Inc.</a></Card.Title>
-                  <Card.Description>Here's a description</Card.Description>
+                  <Card.Description>Built and designed the North Star Metric KPI’s Dashboard (Tableau) for the internal product team and an
+end-to-end batch processing pipeline to handle processes from file ingestion to refreshing the dashboard’s data.
+● Developed a Density Mapping Tool utilizing object detection data from Vintra’s REST API; presented as a
+product demo to the VP of internal security at a large social media company with our head of sales.
+</Card.Description>
                   <Card.Cta>Read project</Card.Cta>
                 </Card>
                 <Card.Eyebrow>JUN 2021 - SEP 2021</Card.Eyebrow>
