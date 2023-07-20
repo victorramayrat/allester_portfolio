@@ -1,4 +1,4 @@
-import { SocialLink } from './about.jsx'
+import { SocialLink, MailIcon } from './about.jsx'
 
 import {
   GitHubIcon,
@@ -30,7 +30,7 @@ export function Title() {
           </div>
           <div className="animate-fade" style={{"animation-delay": "800ms", "animation-fill-mode": "both"}}>
             <p className="mt-6 text-base max-w-screen-sm text-zinc-600 dark:text-zinc-400">
-              I’m a data scientist specializing in generating powerful insights driven by data. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.
+              I’m a data scientist specializing in generating powerful insights driven by data.
             </p>
           </div>
           <div className="mt-6 flex gap-6">
@@ -55,11 +55,13 @@ export function Title() {
                 icon={InstagramIcon}
               />
             </div>
-            {/*<SocialLink
-              href="https://twitter.com"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />*/}
+            <div className="animate-fade" style={{"animation-delay": "1200ms", "animation-fill-mode": "both"}}>
+              <SocialLink 
+                href="mailto:allester@ramayrat.com" 
+                aria-label="Send an Email" 
+                icon={MailIcon}>
+              </SocialLink>
+            </div>
           </div>
         </div>
       </div>
