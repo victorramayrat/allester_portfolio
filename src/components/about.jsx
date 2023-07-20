@@ -1,8 +1,6 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
-
 
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import {
@@ -66,7 +64,7 @@ export function About() {
   return (
     <>
     <div id='about'>
-    <AnimationOnScroll animateIn="animate-fade" animateOnce="true">
+      <AnimationOnScroll animateIn="animate-fade" animateOnce="true">
         <div className="mx-auto justify-center max-w-5xl pt-8 sm:pt-16 px-4 sm:px-8 lg:px-12">
           <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
             <div className="lg:pl-20">
