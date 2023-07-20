@@ -1,86 +1,48 @@
-import Head from 'next/head'
-
 import { Card } from '@/components/Card'
-import { Section } from '@/components/Section'
-import { SimpleLayout } from '@/components/SimpleLayout'
-
-export function SpeakingSection({ children, ...props }) {
-  return (
-    <Section {...props}>
-      <div className="space-y-16">{children}</div>
-    </Section>
-  )
-}
-
-export function Appearance({ title, description, event, cta, href }) {
-  return (
-    <Card as="article">
-      <Card.Title as="h3" href={href}>
-        {title}
-      </Card.Title>
-      <Card.Eyebrow decorate>{event}</Card.Eyebrow>
-      <Card.Description>{description}</Card.Description>
-      <Card.Cta>{cta}</Card.Cta>
-    </Card>
-  )
-}
 
 export function Experience() {
   return (
     <>
-      <Head>
-        <title>Experience - Allester Ramayrat - Software engineer, data science, python developer</title>
-        <meta
-          name="description"
-          content="I’ve spoken at events all around the world and been interviewed for many podcasts."
-        />
-      </Head>
-      <SimpleLayout
-        title="I’ve spoken at events all around the world and been interviewed for many podcasts."
-        intro="One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing, and I love podcast interviews because they give me the opportunity to answer questions instead of just present my opinions."
-      >
-        <div className="space-y-20">
-          <SpeakingSection title="Conferences">
-            <Appearance
-              href="#"
-              title="In space, no one can watch you stream — until now"
-              description="A technical deep-dive into HelioStream, the real-time streaming library I wrote for transmitting live video back to Earth."
-              event="SysConf 2021"
-              cta="Watch video"
-            />
-            <Appearance
-              href="#"
-              title="Lessons learned from our first product recall"
-              description="They say that if you’re not embarassed by your first version, you’re doing it wrong. Well when you’re selling DIY space shuttle kits it turns out it’s a bit more complicated."
-              event="Business of Startups 2020"
-              cta="Watch video"
-            />
-          </SpeakingSection>
-          <SpeakingSection title="Podcasts">
-            <Appearance
-              href="#"
-              title="Using design as a competitive advantage"
-              description="How we used world-class visual design to attract a great team, win over customers, and get more press for Planetaria."
-              event="Encoding Design, July 2022"
-              cta="Listen to podcast"
-            />
-            <Appearance
-              href="#"
-              title="Bootstrapping an aerospace company to $17M ARR"
-              description="The story of how we built one of the most promising space startups in the world without taking any capital from investors."
-              event="The Escape Velocity Show, March 2022"
-              cta="Listen to podcast"
-            />
-            <Appearance
-              href="#"
-              title="Programming your company operating system"
-              description="On the importance of creating systems and processes for running your business so that everyone on the team knows how to make the right decision no matter the situation."
-              event="How They Work Radio, September 2021"
-              cta="Listen to podcast"
-            />
-          </SpeakingSection>
+      <div className="mx-auto max-w-5xl pt-16 sm:pt-32 px-4 sm:px-8 lg:px-12">
+        <header className="mx-auto">
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            Work Experience
+          </h1>
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order.
+          </p>
+        </header>
+        <div className="mx-auto mt-16">
+          <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
+            <div className="flex max-w-3xl flex-col space-y-16">
+              <project className="md:grid md:grid-cols-4 md:items-baseline">
+                  <Card className="md:col-span-3">
+                    <Card.Title>Data Science Fellow @ CCBER</Card.Title>
+                    <Card.Description>Here's a description</Card.Description>
+                    <Card.Cta>Read project</Card.Cta>
+                  </Card>
+                <Card.Eyebrow>JAN 2023 - PRESENT</Card.Eyebrow>
+              </project>
+              <project className="md:grid md:grid-cols-4 md:items-baseline">
+                  <Card className="md:col-span-3">
+                    <Card.Title>Data Scientist (Part-Time) @ Vintra, Inc.</Card.Title>
+                    <Card.Description>Here's a description</Card.Description>
+                    <Card.Cta>Read project</Card.Cta>
+                  </Card>
+                <Card.Eyebrow>SEP 2021 - DEC 2022</Card.Eyebrow>
+              </project>
+              <project className="md:grid md:grid-cols-4 md:items-baseline">
+                <Card className="md:col-span-3">
+                  <Card.Title>Data Science Intern @ <a href="https://vintra.io/" target='_blank'>Vintra, Inc.</a></Card.Title>
+                  <Card.Description>Here's a description</Card.Description>
+                  <Card.Cta>Read project</Card.Cta>
+                </Card>
+                <Card.Eyebrow>JUN 2021 - SEP 2021</Card.Eyebrow>
+              </project>
+            </div>
+          </div>
         </div>
-      </SimpleLayout>
+      </div>
     </>
   )
 }
