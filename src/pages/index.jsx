@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import { Title } from '../components/title'
 import { About } from '../components/about'
-import { Experience } from '../components/experience'
+import { Experience } from '../components/Experience'
+import { Experience2 } from '../components/experience2'
+import { Example } from '../components/posts'
+import { Skills } from '../components/Skills'
 
 export default function Home() {
   return (
@@ -14,8 +17,11 @@ export default function Home() {
         />
       </Head>
       <Title/>
-      <div id='about'><About/></div>
+      <About/>
       <Experience/>
+      <Experience2/>
+      <Example/>
+      <Skills/>
     </>
   )
 }
