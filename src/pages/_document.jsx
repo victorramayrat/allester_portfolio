@@ -41,7 +41,7 @@ export default function Document() {
       <Head>
         <script dangerouslySetInnerHTML={{ __html: modeScript }} />
       </Head>
-      <body className="flex h-full flex-col bg-zinc-50 dark:bg-zinc-900">
+      <body className="flex h-full flex-col bg-zinc-0 dark:bg-zinc-900">
         <Main />
         <NextScript />
       </body>
