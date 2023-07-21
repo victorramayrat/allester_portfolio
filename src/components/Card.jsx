@@ -39,7 +39,7 @@ Card.Link = function CardLink({ children, ...props }) {
 
 Card.Title = function CardTitle({ as: Component = 'h2', href, children }) {
   return (
-    <Component className="text-base z-10 font-semibold tracking-tight text-zinc-800 dark:text-zinc-100 group-hover:text-teal-500 transition group-hover:scale-110">
+    <Component className="text-base z-10 font-semibold tracking-tight text-zinc-800 dark:text-zinc-100 group-hover:text-teal-500 transition hover:scale-110">
       {href ? <Card.Link href={href}>{children}</Card.Link> : children}
     </Component>
   )
@@ -47,7 +47,7 @@ Card.Title = function CardTitle({ as: Component = 'h2', href, children }) {
 
 Card.Description = function CardDescription({children }) {
   return (
-    <ul className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+    <ul className="relative z-10 my-2 text-sm text-zinc-600 dark:text-zinc-400">
       {children}
     </ul>
   )
@@ -57,7 +57,7 @@ Card.Cta = function CardCta({children}) {
   return (
       <div
         aria-hidden="true"
-        className="relative z-20 mt-4 flex items-center text-sm font-medium text-zinc-700 dark:text-zinc-200 hover:text-teal-500 dark:hover:text-teal-500 transition hover:scale-110"
+        className="relative z-20 my-2 flex items-center text-sm font-medium text-zinc-700 dark:text-zinc-200 hover:text-teal-500 dark:hover:text-teal-500 transition hover:scale-110"
       >
         {children}
         <ChevronRightIcon className="h-4 w-4 stroke-current" />
