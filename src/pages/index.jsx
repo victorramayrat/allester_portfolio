@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Title } from '../components/title'
 import { About } from '../components/about'
 import { Experience } from '../components/experience'
+import { Projects } from '../components/Projects'
 {/*
 import { Experience2 } from '../components/experience2'
 import { Example } from '../components/posts'
@@ -21,6 +22,7 @@ export default function Home() {
       <Title/>
       <About/>
       <Experience/>
+      <Projects/>
       {/*
       <Experience2/>
       <Example/>
