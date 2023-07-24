@@ -79,7 +79,7 @@ export function About() {
             </div>
             <div className="lg:order-first lg:row-span-2">
               <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-                About Me <br /> I'm Allester, your next Data Scientist.
+                About Me
               </h1>
               <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>Thank you for taking the time to read my background. I have always been interested in problem solving especially in the context of data science, analytics, and/or machine learning. At the moment, I am also exploring topics on large language model applications.  I am also an avid painter and dancer.</p>
