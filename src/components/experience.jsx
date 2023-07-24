@@ -99,7 +99,7 @@ export function Experience() {
                 </div>
                 
               </div>
-              <div className="mt-8">
+              <div className="mt-8 w-fit">
                 <a href="https://drive.google.com/file/d/1JCX6WV4s56IOTVyRsh2K79RpbzDuitDP/view?usp=sharing" target="_blank">
                   <p className="text-base w-fit z-10 font-semibold tracking-tight text-zinc-800 dark:text-zinc-100 dark:hover:text-teal-500 hover:text-teal-500 transition hover:scale-110">
                     View Full Resume<ChevronRightIcon className="float-right h-7 w-4 stroke-current"/>
