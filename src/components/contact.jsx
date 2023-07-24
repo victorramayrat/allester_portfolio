@@ -16,7 +16,7 @@ export function Contact() {
     <>
       <div id="contact">
         <AnimationOnScroll animateIn="animate-fade" animateOnce="true">
-          <Container className="mt-24">
+          <Container className="my-24">
             <div className="mx-auto max-w-xl">
               <h1 className="text-center text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                 Get In Touch
