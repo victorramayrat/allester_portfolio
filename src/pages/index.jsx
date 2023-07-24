@@ -3,11 +3,7 @@ import { Title } from '../components/title'
 import { About } from '../components/about'
 import { Experience } from '../components/experience'
 import { Projects } from '../components/Projects'
-{/*
-import { Experience2 } from '../components/experience2'
-import { Example } from '../components/posts'
-import { Skills } from '../components/Skills'
-*/}
+import { Contact } from '../components/contact'
 
 export default function Home() {
   return (
@@ -23,11 +19,7 @@ export default function Home() {
       <About/>
       <Experience/>
       <Projects/>
-      {/*
-      <Experience2/>
-      <Example/>
-      <Skills/>
-      */}
+      <Contact/>
     </>
   )
 }
