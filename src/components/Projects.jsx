@@ -23,7 +23,7 @@ const posts = [
       
   ]
   
-  export function Projects() {
+  export default function Projects() {
     return (
       <div id='projects'>
         <AnimationOnScroll animateIn="animate-fade" animateOnce="true">

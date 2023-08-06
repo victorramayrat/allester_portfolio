@@ -15,7 +15,7 @@ function Items({children}) {
   )
 }
 
-export function Experience() {
+export default function Experience() {
   return (
     <>
       <div id='experience'>

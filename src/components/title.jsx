@@ -1,4 +1,4 @@
-import { SocialLink, MailIcon } from './About.jsx'
+import { SocialLink, MailIcon } from '@/components/About.jsx'
 
 import {
   GitHubIcon,
@@ -7,7 +7,7 @@ import {
   TwitterIcon,
 } from '@/components/SocialIcons'
 
-export function Title() {
+export default function Title() {
   return (
     <>
       <div className="px-4 sm:px-12 md:px-18 lg:px-28 h-screen flex flex-col justify-center">
