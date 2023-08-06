@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import ProjectCnn from '@/images/project_cnn.png'
-import { Badge } from './experience'
+import { Badge } from './Experience'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import { ChevronRightIcon } from '@/components/Card'
 
@@ -16,36 +16,11 @@ const posts = [
       badges:
         <div className="relative flex items-center gap-x-4">
           <Badge>Python</Badge>
-          <Badge>Python</Badge>
-          <Badge>Python</Badge>
+          <Badge>Pandas</Badge>
+          <Badge>PyTorch</Badge>
         </div>,
     },
-    {
-        id: 2,
-        title: 'Vignette on Convolutional Neural Networks',
-        href: 'https://github.com/pstat197/vignette-cnn-facial-recognition/tree/main',
-        description:
-          'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
-        imageUrl:
-          ProjectCnn,
-        badges:
-          <div className="relative flex items-center gap-x-4">
-            <Badge>asd</Badge>
-          </div>,
-      },
-      {
-        id: 3,
-        title: 'Vignette on Convolutional Neural Networks',
-        href: 'https://github.com/pstat197/vignette-cnn-facial-recognition/tree/main',
-        description:
-          'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
-        imageUrl:
-          ProjectCnn,
-        badges:
-          <div className="relative flex items-center gap-x-4">
-            <Badge>asd</Badge>
-          </div>,
-      },
+      
   ]
   
   export function Projects() {
@@ -57,7 +32,7 @@ const posts = [
               <div className="mx-auto max-w-2xl lg:max-w-4xl">
                 <h2 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">Selected Projects</h2>
                 <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                  Learn how to grow your business with our expert advice.
+                  My selected projects. This is WIP for now. Will update soon.
                 </p>
                 <div className="mt-8 space-y-20 lg:mt-10 lg:space-y-20">
                   {posts.map((post) => (
@@ -93,13 +68,13 @@ const posts = [
                     </div>
                   ))}
                 </div>
-                <div className="mt-8">
+                {/* <div className="mt-8">
                   <a href="https://drive.google.com/file/d/1JCX6WV4s56IOTVyRsh2K79RpbzDuitDP/view?usp=sharing" target="_blank">
                     <p className="text-base w-fit z-10 font-semibold tracking-tight text-zinc-800 dark:text-zinc-100 dark:hover:text-teal-500 hover:text-teal-500 transition hover:scale-110">
                       View Project Archive<ChevronRightIcon className="float-right h-7 w-4 stroke-current"/>
                     </p>
                   </a> 
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

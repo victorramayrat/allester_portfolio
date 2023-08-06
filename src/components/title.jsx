@@ -1,4 +1,4 @@
-import { SocialLink, MailIcon } from './about.jsx'
+import { SocialLink, MailIcon } from './About.jsx'
 
 import {
   GitHubIcon,
@@ -14,23 +14,23 @@ export function Title() {
         <div className="mx-auto max-w-4xl">
           <div className="animate-fade" style={{"animation-delay": "500ms", "animation-fill-mode": "both"}}>
             <h2 className="leading-tight text-teal-600 dark:text-teal-400">
-              Hi, my name is
+              Hello, thank you for visiting.
             </h2>
           </div>
           <div className="animate-fade" style={{"animation-delay": "600ms", "animation-fill-mode": "both"}}>
             <h1 className="mt-6 text-clamp font-bold leading-none tracking-tight text-zinc-800 dark:text-zinc-100">
-              Allester Ramayrat.
+              I'm Allester. 🤝
             </h1>
           </div>
           
           <div className="animate-fade" style={{"animation-delay": "700ms", "animation-fill-mode": "both"}}>
             <h1 className="mt-6 text-clamp font-bold leading-none tracking-tight text-zinc-600 dark:text-zinc-400" >
-              I build things from data.
+              Pleasure to meet you.
             </h1>
           </div>
           <div className="animate-fade" style={{"animation-delay": "800ms", "animation-fill-mode": "both"}}>
-            <p className="mt-6 text-base max-w-screen-sm text-zinc-600 dark:text-zinc-400">
-              I’m a data scientist specializing in generating powerful insights driven by data.
+            <p className="mt-6 text-2xl max-w-screen-sm text-zinc-600 dark:text-zinc-400">
+              I look forward to telling you my story and journey as a founder, data scientist and soon a software engineer.
             </p>
           </div>
           <div className="mt-6 flex gap-6">

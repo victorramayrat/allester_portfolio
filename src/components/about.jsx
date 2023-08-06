@@ -78,17 +78,14 @@ export function About() {
               </div>
             </div>
             <div className="lg:order-first lg:row-span-2">
-              <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+              <h2 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                 About Me
-              </h1>
+              </h2>
               <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>Thank you for taking the time to read my background. I have always been interested in problem solving especially in the context of data science, analytics, and/or machine learning. At the moment, I am also exploring topics on large language model applications.  I am also an avid painter and dancer.</p>
-
-              <p>I was born and raised in the Bay Area. I currently reside in downtown San Jose. I developed an interest in computers and gaming at an early age, starting with MMORPG World of Warcraft. I attended UC Santa Barbara, earning my bachelor’s degree in statistics and data science last Spring (June 2023).</p>
-
-              <p>While pursuing my degree, I worked in a part-time capacity as a Junior Data Scientist for Vintra (acq. by Alarm.com) where I worked on creating KPI dashboards for the product and sales team. The highlight of my work at Vintra was when I presented a dashboard I built as a product feature to one of the execs at a large social media company. That was a great experience.</p>
-
-              <p>I love to explore new technologies and challenges. I am eager to learn new things and improve my developer skills. I am looking to join a product engineering team as a technical Data Scientist or Software Engineer - Python developer.</p>
+              <p>Thank you for taking the time to visit my portfolio. My goal here is to communicate my professional progress as well as to present myself as a valuable contributor to your team or next project. I usually make my impact on roles and projects with data science as well as AI/ML topics incl. object detection modeling and CNN. </p>
+              <p>I am also exploring a career as a junior software engineer, with focus on backend using Python (with working knowledge on frontend - NextJs/Tailwind CSS, like this site). At UCSB, I was allowed to take Computer Science courses in data structures and algorithms.</p>
+              <p>While I am in the hunt for my next role, I've co-founded a <a className="font-semibold text-yellow-600" href="https://thedxcompany.com" target="_blank">data analytics engineering studio and technology lab</a> which helps product and demand marketing team set up their data analytics pipeline for reporting. This keeps me busy with building on emerging technology (like GenAI) while I also improve and be better on my marketable skills.</p>
+              <p>I look forward to connecting with you. Please reach out if you think we're a great fit, either in a full-time roles or as a customer for my company.</p>
               </div>
             </div>
             <div className="lg:pl-20">

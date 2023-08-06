@@ -22,25 +22,46 @@ export function Experience() {
         <AnimationOnScroll animateIn="animate-fade" animateOnce="true">
           <div className="mx-auto max-w-5xl pt-16 sm:pt-32 px-4 sm:px-8 lg:px-12">
             <header className="mx-auto">
-              <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+              <h2 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                 Work Experience
-              </h1>
+              </h2>
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order.
+                Professional experience as a data scientist
               </p>
             </header>
             <div className="mx-auto mt-16">
               <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
                 <div className="flex max-w-3xl flex-col space-y-16">
+                  
                     <div className="md:grid md:grid-cols-4 md:items-baseline">
                         <Card className="md:col-span-3">
-                          <a className="z-0" href='https://www.ccber.ucsb.edu/' target="_blank">
-                            <Card.Title>Data Science Fellow @ CCBER</Card.Title>
-                          </a>
+                          <Card.Title>Co-founder @ <a className="z-0" href='https://thedxcompany.com' target="_blank">The DX Company</a></Card.Title>
                           <Card.Description>
-                            <li>- Built a Photogrammetry Pipeline (Metashape) for reconstructing 3D bee models to generate comprehensive bee trait and image datasets; aided in the biological study of image and anatomical trait digitization of bees (Big Bee Project)</li>
-                            <li>- Reduced Reprojection Error (pix) from 0.84 to 0.41 and processing time by 75% of pre-existing bee models through improving data collection, data augmentation, and parameter tuning on 16+ photo sets containing 145+ macro images</li>
-                            <li>- Trained an object detection model (YOLOv8) on 8000+ labeled bee image data from 3D models and iNaturalist to recognize video frames featuring bees to reduce video analysis and image extraction time from hours to minutes.</li>
+                          <ul className="list-outside list-disc ml-6 marker:text-orange-600">
+                            <li>Started a data analytics engineering studio and technology lab. Working as a freelance analytics engineer and also doing software engineering projects.</li>
+                          </ul>
+                          </Card.Description>
+                          
+                          <Items>
+                            <Badge>Segment</Badge>
+                            <Badge>Data warehouse</Badge>
+                            <Badge>Fivetran</Badge>
+                            <Badge>ETL</Badge>
+                            <Badge>Analytics</Badge>
+                          </Items>
+                        </Card>
+                      <Card.Eyebrow>JUL 2023 - PRESENT</Card.Eyebrow>
+                    </div>
+                  
+                    <div className="md:grid md:grid-cols-4 md:items-baseline">
+                        <Card className="md:col-span-3">
+                          <Card.Title>Data Science Fellow @ <a className="z-0" href='https://www.ccber.ucsb.edu/' target="_blank">CCBER</a></Card.Title>
+                          <Card.Description>
+                            <ul className="list-outside list-disc ml-6 marker:text-orange-600">
+                            <li className="py-3">Built a Photogrammetry Pipeline (Metashape) for reconstructing 3D bee models to generate comprehensive bee trait and image datasets; aided in the biological study of image and anatomical trait digitization of bees (Big Bee Project)</li>
+                            <li className="py-3">Reduced Reprojection Error (pix) from 0.84 to 0.41 and processing time by 75% of pre-existing bee models through improving data collection, data augmentation, and parameter tuning on 16+ photo sets containing 145+ macro images</li>
+                            <li className="py-3">Trained an object detection model (YOLOv8) on 8000+ labeled bee image data from 3D models and iNaturalist to recognize video frames featuring bees to reduce video analysis and image extraction time from hours to minutes.</li>
+                            </ul>
                           </Card.Description>
                           <Items>
                             <a className="z-0" href='https://escholarship.org/uc/item/0th7b3mh' target="_blank">
@@ -56,15 +77,17 @@ export function Experience() {
                             <Badge>Python</Badge>
                           </Items>
                         </Card>
-                      <Card.Eyebrow>JAN 2023 - PRESENT</Card.Eyebrow>
+                      <Card.Eyebrow>JAN 2023 - JUN 2023</Card.Eyebrow>
                     </div>
-                  <a className="z-0" href='https://vintra.io/' target="_blank">
-                    <project className="md:grid md:grid-cols-4 md:items-baseline">
+                  
+                    <div className="md:grid md:grid-cols-4 md:items-baseline">
                         <Card className="md:col-span-3">                  
-                            <Card.Title>Data Scientist (Part-Time) @ Vintra, Inc.</Card.Title>
+                            <Card.Title>Data Scientist @ <a className="z-0" href='https://vintra.io/' target="_blank">Vintra, Inc.</a></Card.Title>
                           <Card.Description>
-                            <li>- Built the Cloud Product User Activity Dashboard (Tableau) to display user activity on the cloud product; created an automated ETL pipeline (Google Apps Scripts) utilizing Vintra’s API to access the cloud product database (MongoDB)</li>
-                            <li>- Innovated the Density Mapping Tool to dynamically change Tableau backgrounds based on applied aggregations through the development of non-OOTB features in Tableau (Google Cloud Storage)</li>
+                          <ul className="list-outside list-disc ml-6 marker:text-orange-600">
+                            <li className="py-3">Built the Cloud Product User Activity Dashboard (Tableau) to display user activity on the cloud product; created an automated ETL pipeline (Google Apps Scripts) utilizing Vintra’s API to access the cloud product database (MongoDB)</li>
+                            <li className="py-3">Innovated the Density Mapping Tool to dynamically change Tableau backgrounds based on applied aggregations through the development of non-OOTB features in Tableau (Google Cloud Storage)</li>
+                            </ul>
                           </Card.Description>
                           <Items>
                               <Badge>Tableau</Badge>
@@ -76,15 +99,15 @@ export function Experience() {
                             </Items>
                         </Card>
                       <Card.Eyebrow>SEP 2021 - DEC 2022</Card.Eyebrow>
-                    </project>
-                  </a>
-                  <a className="z-0" href="https://vintra.io/" target="_blank">
-                    <project className="md:grid md:grid-cols-4 md:items-baseline">
+                    </div>
+                    <div className="md:grid md:grid-cols-4 md:items-baseline">
                       <Card className="md:col-span-3">
                           <Card.Title>Data Science Intern @ Vintra, Inc.</Card.Title>
                         <Card.Description>
-                          <li>- Built and designed the North Star Metric KPI’s Dashboard (Tableau) for the internal product team and an end-to-end batch processing pipeline to handle processes from file ingestion to refreshing the dashboard’s data.</li>
-                          <li>- Developed a Density Mapping Tool utilizing object detection data from Vintra’s REST API; presented as a product demo to the VP of internal security at a large social media company with our head of sales.</li>
+                        <ul className="list-outside list-disc ml-6 marker:text-orange-600">
+                          <li className="py-3">Built and designed the North Star Metric KPI’s Dashboard (Tableau) for the internal product team and an end-to-end batch processing pipeline to handle processes from file ingestion to refreshing the dashboard’s data.</li>
+                          <li className="py-3">Developed a Density Mapping Tool utilizing object detection data from Vintra’s REST API; presented as a product demo to the VP of internal security at a large social media company with our head of sales.</li>
+                          </ul>
                         </Card.Description>
                         <Items>
                           <Badge>Tableau</Badge>
@@ -94,10 +117,8 @@ export function Experience() {
                         </Items>
                       </Card>
                       <Card.Eyebrow>JUN 2021 - SEP 2021</Card.Eyebrow>
-                    </project>
-                  </a>
+                    </div>
                 </div>
-                
               </div>
               <div className="mt-8 w-fit">
                 <a href="https://drive.google.com/file/d/1JCX6WV4s56IOTVyRsh2K79RpbzDuitDP/view?usp=sharing" target="_blank">

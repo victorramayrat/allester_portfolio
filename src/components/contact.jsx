@@ -25,7 +25,7 @@ export function Contact() {
                 Want to work together, connect or just say hi? My inbox is open, and I'll do my best to get back to you!
               </p>
               <div className="justify-center mt-6 flex gap-6">
-                <CTA>Say Hello</CTA>
+                <CTA>Say hello</CTA>
               </div>
             </div>
           </Container>

@@ -28,8 +28,7 @@ export function Footer() {
                   <NavLink href="/#contact">Contact</NavLink>
                 </div>
                 <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                  &copy; {new Date().getFullYear()} Allester Ramayrat. All rights
-                  reserved.
+                  <a href="https://github.com/victorramayrat/allester_portfolio" target="_blank">Github code is here. Feel free to fork</a>.
                 </p>
               </div>
             </Container.Inner>
