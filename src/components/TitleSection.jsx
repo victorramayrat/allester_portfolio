@@ -7,7 +7,7 @@ import {
   TwitterIcon,
 } from '@/components/SocialIcons'
 
-export default function Title() {
+export function Title() {
   return (
     <>
       <div className="px-4 sm:px-12 md:px-18 lg:px-28 h-screen flex flex-col justify-center">
@@ -68,3 +68,4 @@ export default function Title() {
     </>
   )
   }
+  export default Title;
