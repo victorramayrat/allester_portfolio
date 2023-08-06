@@ -11,7 +11,7 @@ function CTA({children}) {
   )
 }
 
-export default function Contact() {
+export function Contact() {
   return (
     <>
       <div id="contact">
