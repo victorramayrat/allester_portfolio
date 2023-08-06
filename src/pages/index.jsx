@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import { Title } from '@/components/Title'
+import { Title } from '@/components/TitleSection'
 import { About } from '@/components/AboutSection'
 import { Experience } from '@/components/ExperienceSection'
 import { Projects } from '@/components/Projects'
-import { Contact } from '@/components/Contact'
+import { Contact } from '@/components/ContactSection'
 
 export default function Home() {
   return (
