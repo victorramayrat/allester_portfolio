@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Title } from '@/components/Title'
-import { About } from '@/components/About'
-import { Experience } from '@/components/Experience'
+import { About } from '@/components/AboutSection'
+import { Experience } from '@/components/ExperienceSection'
 import { Projects } from '@/components/Projects'
 import { Contact } from '@/components/Contact'
 

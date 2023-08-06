@@ -1,4 +1,4 @@
-import { SocialLink, MailIcon } from '@/components/About.jsx'
+import { SocialLink, MailIcon } from '@/components/AboutSection.jsx'
 
 import {
   GitHubIcon,

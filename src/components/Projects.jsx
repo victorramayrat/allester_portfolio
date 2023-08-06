@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import ProjectCnn from '@/images/project_cnn.png'
-import { Badge } from '@/components/Experience'
+import { Badge } from '@/components/ExperienceSection'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import { ChevronRightIcon } from '@/components/Card'
 
