@@ -13,7 +13,7 @@ export function Title() {
       <div className="px-4 sm:px-12 md:px-18 lg:px-28 h-screen flex flex-col justify-center">
         <div className="mx-auto max-w-4xl">
           <div className="animate-fade" style={{"animation-delay": "500ms", "animation-fill-mode": "both"}}>
-            <h2 className="leading-tight text-teal-600 dark:text-teal-400">
+            <h2 className="leading-tight text-orange-600 dark:text-orange-400">
               Hello, thank you for visiting.
             </h2>
           </div>
