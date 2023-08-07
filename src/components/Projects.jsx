@@ -51,7 +51,7 @@ const posts = [
                          <div>
                            <div className="relative max-w-xl">
                               <h3 className="mt-3 text-lg font-semibold leading-6 ">
-                                  <div className="w-max text-zinc-800 dark:text-zinc-100 z-10 group-hover:text-teal-500 transition hover:scale-110 ">
+                                  <div className="w-max text-zinc-800 dark:text-zinc-100 z-10 group-hover:text-yellow-500 transition hover:scale-110 ">
                                     {post.title}
                                   </div>
                               </h3>
@@ -70,7 +70,7 @@ const posts = [
                 </div>
                 {/* <div className="mt-8">
                   <a href="https://drive.google.com/file/d/1JCX6WV4s56IOTVyRsh2K79RpbzDuitDP/view?usp=sharing" target="_blank">
-                    <p className="text-base w-fit z-10 font-semibold tracking-tight text-zinc-800 dark:text-zinc-100 dark:hover:text-teal-500 hover:text-teal-500 transition hover:scale-110">
+                    <p className="text-base w-fit z-10 font-semibold tracking-tight text-zinc-800 dark:text-zinc-100 dark:hover:text-yellow-500 hover:text-yellow-500 transition hover:scale-110">
                       View Project Archive<ChevronRightIcon className="float-right h-7 w-4 stroke-current"/>
                     </p>
                   </a> 
