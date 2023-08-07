@@ -20,6 +20,21 @@ const posts = [
           <Badge>PyTorch</Badge>
         </div>,
     },
+    {
+      id: 2,
+      title: 'Portfolio website using NextJs and TailwindCSS, deployed to Vercel',
+      href: 'https://allester.dev',
+      description:
+        'Exploration of front-end technologies using ReactJs and animation libraries.',
+      imageUrl:
+        ProjectCnn,
+      badges:
+        <div className="relative flex items-center gap-x-4">
+          <Badge>ReactJs</Badge>
+          <Badge>NextJs</Badge>
+          <Badge>TailwindCSS</Badge>
+        </div>,
+    },
       
   ]
   
