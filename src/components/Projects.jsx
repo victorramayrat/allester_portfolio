@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import ProjectCnn from '@/images/project_cnn.png'
+import ProjectPortfolio from '@/images/project-portfolio.jpg'
 import { Badge } from '@/components/ExperienceSection'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import { ChevronRightIcon } from '@/components/Card'
@@ -27,7 +28,7 @@ const posts = [
       description:
         'Exploration of front-end technologies using ReactJs and animation libraries.',
       imageUrl:
-        ProjectCnn,
+        ProjectPortfolio,
       badges:
         <div className="relative flex items-center gap-x-4">
           <Badge>ReactJs</Badge>
