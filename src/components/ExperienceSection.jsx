@@ -38,7 +38,10 @@ export function Experience() {
                           <Card.Title><a className="z-0" href='https://thedxcompany.com' target="_blank">Co-founder @ The DX Company</a></Card.Title>
                           <Card.Description>
                           <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
-                            <li>Started a data analytics engineering studio and technology lab. Working as a freelance analytics engineer and also doing software engineering projects.</li>
+                            <li>The DX Company is a data anayltics studio and technology lab. We Provide data analytics engineering as a service to startups and growing businesses. I have a technical role in building data pipelines and ETL / ELT to projects.</li>
+                            <li>Explore emerging technology such as Generative AI and Machine Learning.</li>
+                            <li>Build web applications using full-stack javascript framework like NextJs, deployed to Vercel and Supabase.</li>
+                            <li>Use data pipeline and ETL tools like SegmentJs and Apache Spark.</li>
                           </ul>
                           </Card.Description>
                           

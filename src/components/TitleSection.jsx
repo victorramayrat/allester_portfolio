@@ -30,7 +30,7 @@ export function Title() {
           </div>
           <div className="animate-fade" style={{"animation-delay": "800ms", "animation-fill-mode": "both"}}>
             <p className="mt-6 text-2xl max-w-screen-sm text-zinc-600 dark:text-zinc-400">
-              I look forward to telling you my story and journey as a founder, data scientist and soon a software engineer.
+              This tells the story of my journey as a founder, data scientist and as aspiring software engineer.
             </p>
           </div>
           <div className="mt-6 flex gap-6">
