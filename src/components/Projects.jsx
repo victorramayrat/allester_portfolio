@@ -10,7 +10,7 @@ const posts = [
       title: 'Vignette on Convolutional Neural Networks',
       href: 'https://github.com/pstat197/vignette-cnn-facial-recognition/tree/main',
       description:
-        'his is an introduction to image augmentation, feature extraction, and convolutional neural networks for binary and multi classification.',
+        'This is an introduction to image augmentation, feature extraction, and convolutional neural networks for binary and multi classification.',
       imageUrl:
         ProjectCnn,
       badges:
