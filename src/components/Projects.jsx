@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import ProjectCnn from '@/images/project_cnn.png'
-import ProjectPortfolio from '@/images/project-portfolio.jpg'
+import ProjectPortfolio from '@/images/project-portfolio2.png'
 import { Badge } from '@/components/ExperienceSection'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import { ChevronRightIcon } from '@/components/Card'
@@ -26,7 +26,7 @@ const posts = [
       title: 'Portfolio website using NextJs and TailwindCSS, deployed to Vercel',
       href: 'https://allester.dev',
       description:
-        'Exploration of front-end technologies using ReactJs and animation libraries.',
+        'This website - exploration of front-end technologies using ReactJs (NextJs framework) and TailwinCSS, as well as react animation libraries.',
       imageUrl:
         ProjectPortfolio,
       badges:
@@ -67,7 +67,7 @@ const posts = [
                          <div>
                            <div className="relative max-w-xl">
                               <h3 className="mt-3 text-lg font-semibold leading-6 ">
-                                  <div className="w-max text-zinc-800 dark:text-zinc-100 z-10 group-hover:text-yellow-500 transition hover:scale-110 ">
+                                  <div className="w-max text-zinc-800 dark:text-zinc-100 z-10 group-hover:text-yellow-500 transition hover:scale-80 ">
                                     {post.title}
                                   </div>
                               </h3>
