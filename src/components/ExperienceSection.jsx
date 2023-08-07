@@ -48,9 +48,9 @@ export function Experience() {
                           <Items>
                             <Badge>Segment</Badge>
                             <Badge>Data warehouse</Badge>
-                            <Badge>Fivetran</Badge>
-                            <Badge>ETL</Badge>
-                            <Badge>Analytics</Badge>
+                            <Badge>ReactJS</Badge>
+                            <Badge>Python</Badge>
+                            <Badge>ETL/Analytics</Badge>
                           </Items>
                         </Card>
                       <Card.Eyebrow>JUL 2023 - PRESENT</Card.Eyebrow>
