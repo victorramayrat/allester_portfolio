@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home - Allester Ramayrat - Software engineer, data science, python developer</title>
+        <title>Home - Allester Ramayrat - Analytics engineer, data scientist, python developer</title>
         <meta
           name="description"
-          content="Portfolio of Allester Ramayrat - software engineer, analytics engineer, data science, python developer, UCSB graduate, san jose california"
+          content="Portfolio of Allester Ramayrat - founder, analytics engineer, data scientist, python developer, san jose california"
         />
       </Head>
       <Title/>

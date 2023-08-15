@@ -25,12 +25,12 @@ export function Title() {
           
           <div className="animate-fade" style={{"animation-delay": "700ms", "animation-fill-mode": "both"}}>
             <h1 className="mt-6 text-clamp font-bold leading-none tracking-tight text-zinc-600 dark:text-zinc-400" >
-              Pleasure to meet you.
+              It's a pleasure to meet you.
             </h1>
           </div>
           <div className="animate-fade" style={{"animation-delay": "800ms", "animation-fill-mode": "both"}}>
             <p className="mt-6 text-2xl max-w-screen-sm text-zinc-600 dark:text-zinc-400">
-              This tells the story of my journey as a founder, data scientist and as aspiring software engineer.
+              Scroll down below to learn more.
             </p>
           </div>
           <div className="mt-6 flex gap-6">
