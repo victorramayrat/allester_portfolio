@@ -26,7 +26,7 @@ const posts = [
       title: 'Portfolio website using NextJs and TailwindCSS, deployed to Vercel',
       href: 'https://allester.dev',
       description:
-        'This website - exploration of front-end technologies using ReactJs (NextJs framework) and TailwinCSS, as well as react animation libraries.',
+        'This website - exploration of front-end technologies using ReactJs (NextJs framework) and TailwindCSS, as well as react animation libraries.',
       imageUrl:
         ProjectPortfolio,
       badges:
@@ -56,7 +56,7 @@ const posts = [
                       <a href={post.href} target="blank">
                        <article key={post.id} className="group relative isolate flex flex-col gap-8 lg:flex-row">
                          <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"/>
-                         <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+                         <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:w-64 lg:shrink-0">
                            <Image
                              src={ post.imageUrl }
                              alt=""
