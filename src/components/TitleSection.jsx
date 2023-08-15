@@ -25,7 +25,7 @@ export function Title() {
           
           <div className="animate-fade" style={{"animation-delay": "700ms", "animation-fill-mode": "both"}}>
             <h1 className="mt-6 text-clamp font-bold leading-none tracking-tight text-zinc-600 dark:text-zinc-400" >
-              It's a pleasure to meet you.
+              Pleasure to meet you.
             </h1>
           </div>
           <div className="animate-fade" style={{"animation-delay": "800ms", "animation-fill-mode": "both"}}>
