@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import { Title } from '@/components/TitleSection'
 import { About } from '@/components/AboutSection'
 import { Experience } from '@/components/ExperienceSection'
@@ -14,6 +15,16 @@ export default function Home() {
           name="description"
           content="Portfolio of Allester Ramayrat - founder, analytics engineer, data scientist, python developer, san jose california"
         />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-1TXQDLC4GE" />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+  
+            gtag('config', 'G-1TXQDLC4GE');
+          `}
+        </Script>
       </Head>
       <Title/>
       <About/>
