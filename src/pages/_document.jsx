@@ -34,12 +34,22 @@ const modeScript = `
     updateMode()
   }
 `
-
+import Script from 'next/script'
 export default function Document() {
   return (
     <Html className="h-full antialiased scroll-smooth" lang="en">
       <Head>
         <script dangerouslySetInnerHTML={{ __html: modeScript }} />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-1TXQDLC4GE" />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+  
+            gtag('config', 'G-1TXQDLC4GE');
+          `}
+        </Script>
       </Head>
       <body className="flex h-full flex-col bg-zinc-0 dark:bg-zinc-900">
         <Main />
