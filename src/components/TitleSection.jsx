@@ -30,7 +30,7 @@ export function Title() {
           </div>
           <div className="animate-fade" style={{"animation-delay": "800ms", "animation-fill-mode": "both"}}>
             <p className="mt-6 text-2xl max-w-screen-sm text-zinc-600 dark:text-zinc-400">
-              <strong>#opentowork</strong> for Analytics Engineering, Data Analyst, or SWE; either as FTE or contract. Scroll down to learn more.
+              Your friendly analytics engineer. Scroll down to learn more.
             </p>
           </div>
           <div className="mt-6 flex gap-6">

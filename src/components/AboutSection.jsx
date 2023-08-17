@@ -82,9 +82,9 @@ export function About() {
                 About Me
               </h2>
               <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>Thank you for taking the time to visit my portfolio. My goal here is to communicate my professional progress as well as to present myself as a valuable contributor to your team or next project. I am currently seeking roles as analytics engineer, data scientist, or full stack software engineer(Python/ReactJs). </p>
-              <p>While I am in the hunt for my next full time role, I currently freelance as an Analytics Engineer. I've co-founded a <a className="font-semibold text-yellow-600" href="https://thedxcompany.com" target="_blank">data analytics engineering studio and technology lab</a> with my partner SooMin Timpson. I believe that being in motion expands my chance of success in life. This also develops my marketable skills, learn a new programming language (RustLang), and explore-build emerging technologies (like ML/GenAI).</p>
-              <p>I look forward to connecting with you. Please reach out if you think we're a great fit, either for a full-time role or <a className="font-semibold text-yellow-600" href="https://thedxcompany.com/pricing" target="_blank">if you need help with data analytics</a>.</p>
+              <p>Thank you for taking the time to visit my portfolio. I am currently open to roles as analytics engineer, data scientist, or full stack software engineer(Python/ReactJs). </p>
+              <p>At the moment, I currently work as an Analytics Engineer through <a className="font-semibold text-yellow-600" href="https://thedxcompany.com" target="_blank">The DX Company, a data analytics engineering studio and technology lab</a> which I co-founder with my partner SooMin Timpson. I believe that being in motion expands my chance of success in life. This also develops my marketable skills, learn a new programming language (RustLang), and explore-build emerging technologies (like ML/GenAI).</p>
+              <p>I look forward to connecting with you. Please reach out if you think we're a great fit as a contributor to your company or <a className="font-semibold text-yellow-600" href="https://thedxcompany.com/pricing" target="_blank">if you need help with data analytics in general</a>.</p>
               </div>
             </div>
             <div className="lg:pl-20">
