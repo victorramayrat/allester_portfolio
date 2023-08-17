@@ -82,8 +82,8 @@ export function About() {
                 About Me
               </h2>
               <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>Thank you for taking the time to visit my portfolio. I am currently open to roles as analytics engineer, data scientist, or full stack software engineer(Python/ReactJs). </p>
-              <p>At the moment, I currently work as an Analytics Engineer through <a className="font-semibold text-yellow-600" href="https://thedxcompany.com" target="_blank">The DX Company, a data analytics engineering studio and technology lab</a> which I co-founder with my partner SooMin Timpson. I believe that being in motion expands my chance of success in life. This also develops my marketable skills, learn a new programming language (RustLang), and explore-build emerging technologies (like ML/GenAI).</p>
+              <p>Thank you for taking the time to visit my portfolio. I am a trained data scientist with deep interest in software engineering, machine learning and AI.</p>
+              <p>At the moment, I currently work as an Analytics Engineer through <a className="font-semibold text-yellow-600" href="https://thedxcompany.com" target="_blank">The DX Company, a data analytics engineering studio and technology lab</a> which I co-founded with my partner SooMin Timpson. I believe that being in motion expands my chance of success in life. This also develops my marketable skills, learn a new programming language (RustLang), and explore-build emerging technologies (like ML/GenAI).</p>
               <p>I look forward to connecting with you. Please reach out if you think we're a great fit as a contributor to your company or <a className="font-semibold text-yellow-600" href="https://thedxcompany.com/pricing" target="_blank">if you need help with data analytics in general</a>.</p>
               </div>
             </div>
