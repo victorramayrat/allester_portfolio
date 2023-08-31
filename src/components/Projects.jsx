@@ -23,7 +23,7 @@ const posts = [
     },
     {
       id: 2,
-      title: 'Portfolio website using NextJs and TailwindCSS, deployed to Vercel',
+      title: 'Portfolio: NextJs and TailwindCSS',
       href: 'https://allester.dev',
       description:
         'This website - exploration of front-end technologies using ReactJs (NextJs framework) and TailwindCSS, as well as react animation libraries.',
@@ -34,6 +34,21 @@ const posts = [
           <Badge>ReactJs</Badge>
           <Badge>NextJs</Badge>
           <Badge>TailwindCSS</Badge>
+        </div>,
+    },
+    {
+      id: 3,
+      title: 'Bee Detector',
+      href: 'https://github.com/allester/bee_detector',
+      description:
+        'Create a model and a gui to upload camera trap footage to provide researchers with the technology to study behaviors of bees and reduce video analysis time from hours to seconds.',
+      imageUrl:
+        ProjectCnn,
+      badges:
+        <div className="relative flex items-center gap-x-4">
+          <Badge>Python</Badge>
+          <Badge>YOLO v8</Badge>
+          <Badge>Metashape</Badge>
         </div>,
     },
       
@@ -56,14 +71,6 @@ const posts = [
                       <a href={post.href} target="blank">
                        <article key={post.id} className="group relative isolate flex flex-col gap-8 lg:flex-row">
                          <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"/>
-                         <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:w-64 lg:shrink-0">
-                           <Image
-                             src={ post.imageUrl }
-                             alt=""
-                             className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover"
-                           />
-                           <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
-                         </div>
                          <div>
                            <div className="relative max-w-xl">
                               <h3 className="mt-3 text-lg font-semibold leading-6 ">
