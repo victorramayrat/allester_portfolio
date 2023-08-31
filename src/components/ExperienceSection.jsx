@@ -35,13 +35,11 @@ export function Experience() {
                   
                     <div className="md:grid md:grid-cols-4 md:items-baseline">
                         <Card className="md:col-span-3">
-                          <Card.Title><a className="z-0" href='https://thedxcompany.com' target="_blank">Co-founder @ The DX Company</a></Card.Title>
+                          <Card.Title><a className="z-0" href='https://thedxcompany.com' target="_blank">Analytics Engineer/Python Developer @ The DX Company</a></Card.Title>
                           <Card.Description>
                           <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
-                            <li>The DX Company is a data anayltics studio and technology lab. We Provide data analytics engineering as a service to startups and growing businesses. I have a technical role in building data pipelines and ETL / ELT to projects.</li>
-                            <li>Explore emerging technology such as Generative AI and Machine Learning.</li>
-                            <li>Build web applications using full-stack javascript framework like NextJs, deployed to Vercel and Supabase.</li>
-                            <li>Use data pipeline and ETL tools like SegmentJs and Apache Spark.</li>
+                            <li>I co-founded The DX Company - a data anayltics studio and technology lab. We provide data analytics engineering as a service to startups and growing businesses. I have a technical role as a Segment owner as well as in building data pipelines and analytics setup.</li>
+                            <li>Set up data analytics to clients and provide fractional analytics engineering. Build data pipeline using Segment, Big Query, and TinyBird.</li>
                           </ul>
                           </Card.Description>
                           
