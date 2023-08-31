@@ -4,7 +4,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll'
 function CTA({children}) {
   return (
     <a href="mailto:allester@ramayrat.com">
-      <span className="inline-flex items-center z-10 rounded-md bg-blue-50 dark:bg-blue-400/10 px-4 py-2 text-base font-medium text-blue-700 dark:text-blue-400 dark:hover:text-yellow-400 hover:text-yellow-700 ring-1 ring-inset ring-blue-700/10 dark:ring-blue-400/30 hover:ring-yellow-700/10 dark:hover:ring-yellow-400/30">
+      <span className="inline-flex items-center z-10 rounded-md bg-green-50 dark:bg-green-400/10 px-4 py-2 text-base font-medium text-blue-700 dark:text-blue-400 dark:hover:text-yellow-400 hover:text-yellow-700 ring-1 ring-inset ring-blue-700/10 dark:ring-blue-400/30 hover:ring-yellow-700/10 dark:hover:ring-yellow-400/30">
         {children}
       </span>
     </a>
