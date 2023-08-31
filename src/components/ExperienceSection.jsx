@@ -47,10 +47,9 @@ export function Experience() {
                           
                           <Items>
                             <Badge>Segment</Badge>
-                            <Badge>Data warehouse</Badge>
-                            <Badge>Google Tag Manager</Badge>
+                            <Badge>Big Query</Badge>
                             <Badge>Python</Badge>
-                            <Badge>ETL/Analytics</Badge>
+                            <Badge>RustLang</Badge>
                           </Items>
                         </Card>
                       <Card.Eyebrow>JAN 2023 - PRESENT</Card.Eyebrow>
