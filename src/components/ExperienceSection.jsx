@@ -90,6 +90,8 @@ export function Experience() {
                           <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
                             <li className="py-3">Built the Cloud Product User Activity Dashboard (Tableau) to display user activity on the cloud product; created an automated ETL pipeline (Google Apps Scripts) utilizing Vintra’s API to access the cloud product database (MongoDB)</li>
                             <li className="py-3">Innovated the Density Mapping Tool to dynamically change Tableau backgrounds based on applied aggregations through the development of non-OOTB features in Tableau (Google Cloud Storage)</li>
+                            <li className="py-3">Built and designed the North Star Metric KPI’s Dashboard (Tableau) for the internal product team and an end-to-end batch processing pipeline to handle processes from file ingestion to refreshing the dashboard’s data.</li>
+                          <li className="py-3">Developed a Density Mapping Tool utilizing object detection data from Vintra’s REST API; presented as a product demo to the VP of internal security at a large social media company with our head of sales.</li>
                             </ul>
                           </Card.Description>
                           <Items>
@@ -103,28 +105,10 @@ export function Experience() {
                         </Card>
                       <Card.Eyebrow>SEP 2021 - DEC 2022</Card.Eyebrow>
                     </div>
-                    <div className="md:grid md:grid-cols-4 md:items-baseline">
-                      <Card className="md:col-span-3">
-                          <Card.Title>Data Science Intern @ Vintra, Inc.</Card.Title>
-                        <Card.Description>
-                        <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
-                          <li className="py-3">Built and designed the North Star Metric KPI’s Dashboard (Tableau) for the internal product team and an end-to-end batch processing pipeline to handle processes from file ingestion to refreshing the dashboard’s data.</li>
-                          <li className="py-3">Developed a Density Mapping Tool utilizing object detection data from Vintra’s REST API; presented as a product demo to the VP of internal security at a large social media company with our head of sales.</li>
-                          </ul>
-                        </Card.Description>
-                        <Items>
-                          <Badge>Tableau</Badge>
-                          <Badge>Python</Badge>
-                          <Badge>Pandas</Badge>
-                          <Badge>Postman</Badge>
-                        </Items>
-                      </Card>
-                      <Card.Eyebrow>JUN 2021 - SEP 2021</Card.Eyebrow>
-                    </div>
                 </div>
               </div>
               <div className="mt-8 w-fit">
-                <a href="https://drive.google.com/file/d/1JCX6WV4s56IOTVyRsh2K79RpbzDuitDP/view?usp=sharing" target="_blank">
+                <a href="https://docs.google.com/document/d/1kY6UxCejPVzf7jLrRzyUh4bV4sMTeHCWSfrHjc2daes/edit?usp=sharing" target="_blank">
                   <p className="text-base w-fit z-10 font-semibold tracking-tight text-zinc-800 dark:text-zinc-100 dark:hover:text-yellow-500 hover:text-teal-500 transition hover:scale-110">
                     View Full Resume<ChevronRightIcon className="float-right h-7 w-4 stroke-current"/>
                   </p>

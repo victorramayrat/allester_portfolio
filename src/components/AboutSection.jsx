@@ -107,7 +107,7 @@ export function About() {
                   target="_blank"
                   className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
                 >
-                  Download my CV
+                  Download my Resume
                 </SocialLink>
               </ul>
             </div>
