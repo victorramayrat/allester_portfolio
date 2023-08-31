@@ -22,6 +22,7 @@ export function Contact() {
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
               Want to work together, connect or just say hi? My inbox is open, and I'll do my best to get back to you!
               <br />
+              <CTA>Say hello</CTA>
               </p>
             </div>
           </div>
