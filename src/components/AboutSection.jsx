@@ -9,7 +9,7 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/allester-headshot-new.jpg'
+import portraitImage from '@/images/allester.jpeg'
 
 export function SocialLink({ className, href, children, icon: Icon }) {
   return (
