@@ -13,25 +13,23 @@ function CTA({children}) {
 
 export function Contact() {
   return (
-    <>
-      <div id="contact">
-        <AnimationOnScroll animateIn="animate-fade" animateOnce="true">
-          <Container className="my-24">
-            <div className="mx-auto max-w-xl">
-              <h1 className="text-center text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-                Get In Touch
-              </h1>
+    <div id="contact">
+      <AnimationOnScroll animateIn="animate-fade" animateOnce="true">
+        <div className="py-24 sm:py-32">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl lg:max-w-4xl">
+              <h2 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">Get In Touch</h2>
               <p className="text-center mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                Want to work together, connect or just say hi? My inbox is open, and I'll do my best to get back to you!
+              Want to work together, connect or just say hi? My inbox is open, and I'll do my best to get back to you!
               </p>
               <div className="justify-center mt-6 flex gap-6">
                 <CTA>Say hello</CTA>
               </div>
             </div>
-          </Container>
-        </AnimationOnScroll>
-      </div>
-    </>
+          </div>
+        </div>
+      </AnimationOnScroll>
+    </div>
   )
 }
 

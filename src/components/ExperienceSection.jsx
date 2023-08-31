@@ -102,7 +102,7 @@ export function Experience() {
                               <Badge>Google Cloud Platform</Badge>
                             </Items>
                         </Card>
-                      <Card.Eyebrow>SEP 2021 - DEC 2022</Card.Eyebrow>
+                      <Card.Eyebrow>JUN 2021 - DEC 2022</Card.Eyebrow>
                     </div>
                 </div>
               </div>
