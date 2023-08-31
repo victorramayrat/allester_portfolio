@@ -84,7 +84,7 @@ export function Experience() {
                   
                     <div className="md:grid md:grid-cols-4 md:items-baseline">
                         <Card className="md:col-span-3">                  
-                            <Card.Title><a className="z-0" href='https://vintra.io/' target="_blank">Data Scientist @ Vintra, Inc.</a></Card.Title>
+                            <Card.Title><a className="z-0" href='https://vintra.io/' target="_blank">Data Scientist @ Vintra, Inc. (acq. Alarm.com)</a></Card.Title>
                           <Card.Description>
                           <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
                             <li className="py-3">Built the Cloud Product User Activity Dashboard (Tableau) to display user activity on the cloud product; created an automated ETL pipeline (Google Apps Scripts) utilizing Vintra’s API to access the cloud product database (MongoDB)</li>
