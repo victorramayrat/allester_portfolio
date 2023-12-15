@@ -38,8 +38,7 @@ export function Experience() {
                           <Card.Title><a className="z-0" href='https://thedxcompany.com' target="_blank">Analytics Engineer/Python Developer @ The DX Company</a></Card.Title>
                           <Card.Description>
                           <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
-                            <li>I co-founded The DX Company - a data anayltics studio and technology lab. We provide data analytics engineering as a service to startups and growing businesses. I have a technical role as a Segment owner as well as in building data pipelines and analytics setup.</li>
-                            <li>Set up data analytics to clients and provide fractional analytics engineering. Build data pipeline using Segment, Big Query, and TinyBird.</li>
+                            <li>Started The DX Company - a data analytics studio and technology lab. We provide fractional analytics engineering as a service to startups and growing businesses. I have a technical role as a Segment owner as well as in building data pipelines and analytics setup.</li>
                           </ul>
                           </Card.Description>
                           
