@@ -8,6 +8,22 @@ import { ChevronRightIcon } from '@/components/Card'
 const posts = [
     {
       id: 1,
+      title: 'RustLang Bootcamp projects',
+      href: 'https://github.com/letsgetrusty/bootcamp/tree/master/4.%20Projects',
+      description:
+        'CLI - Jira clone, API - StackOverflow clone, Auth and health check microservices using gRPC',
+      imageUrl:
+        ProjectCnn,
+      badges:
+        <div className="relative flex items-center gap-x-4">
+          <Badge>RustLang</Badge>
+          <Badge>Rocket</Badge>
+          <Badge>gRPC</Badge>
+          <Badge>Microservices</Badge>
+        </div>,
+    },
+    {
+      id: 2,
       title: 'Vignette on Convolutional Neural Networks',
       href: 'https://github.com/pstat197/vignette-cnn-facial-recognition/tree/main',
       description:
@@ -19,21 +35,6 @@ const posts = [
           <Badge>Python</Badge>
           <Badge>Pandas</Badge>
           <Badge>PyTorch</Badge>
-        </div>,
-    },
-    {
-      id: 2,
-      title: 'Portfolio: NextJs and TailwindCSS',
-      href: 'https://allester.dev',
-      description:
-        'This website - exploration of front-end technologies using ReactJs (NextJs framework) and TailwindCSS, as well as react animation libraries.',
-      imageUrl:
-        ProjectPortfolio,
-      badges:
-        <div className="relative flex items-center gap-x-4">
-          <Badge>ReactJs</Badge>
-          <Badge>NextJs</Badge>
-          <Badge>TailwindCSS</Badge>
         </div>,
     },
     {
@@ -51,7 +52,21 @@ const posts = [
           <Badge>Metashape</Badge>
         </div>,
     },
-      
+    {
+      id: 4,
+      title: 'Portfolio: NextJs and TailwindCSS',
+      href: 'https://allester.dev',
+      description:
+        'Exploration of front-end technologies using ReactJs (NextJs framework) and TailwindCSS, as well as react animation libraries.',
+      imageUrl:
+        ProjectPortfolio,
+      badges:
+        <div className="relative flex items-center gap-x-4">
+          <Badge>ReactJs</Badge>
+          <Badge>NextJs</Badge>
+          <Badge>TailwindCSS</Badge>
+        </div>,
+    },
   ]
   
   export function Projects() {
