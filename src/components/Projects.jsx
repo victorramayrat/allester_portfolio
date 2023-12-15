@@ -11,13 +11,14 @@ const posts = [
       title: 'RustLang Bootcamp projects',
       href: 'https://github.com/letsgetrusty/bootcamp/tree/master/4.%20Projects',
       description:
-        'CLI - Jira clone, API - StackOverflow clone, Auth and health check microservices using gRPC',
+        'CLI - Jira clone using third-party crates (like serde, anyhow, itertools, etc.), API for a StackOverflow-like app, Auth and Health check Microservices app with gRPC.',
       imageUrl:
         ProjectCnn,
       badges:
         <div className="relative flex items-center gap-x-4">
           <Badge>RustLang</Badge>
           <Badge>Rocket</Badge>
+          <Badge>SQL models</Badge>
           <Badge>gRPC</Badge>
           <Badge>Microservices</Badge>
         </div>,
