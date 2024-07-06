@@ -23,10 +23,10 @@ export function Experience() {
           <div className="mx-auto max-w-5xl pt-16 sm:pt-32 px-4 sm:px-8 lg:px-12">
             <header className="mx-auto">
               <h2 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-                Work Experience
+                Work
               </h2>
               <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                Professional work experience 
+                Work-related experiences &mdash; incl. employment, self-employment, and side-projects.
               </p>
             </header>
             <div className="mx-auto mt-16">
@@ -35,10 +35,10 @@ export function Experience() {
                   
                     <div className="md:grid md:grid-cols-4 md:items-baseline">
                         <Card className="md:col-span-3">
-                          <Card.Title><a className="z-0" href='https://thedxcompany.com' target="_blank">Analytics Engineer/Python Developer @ The DX Company</a></Card.Title>
+                          <Card.Title><a className="z-0" href='https://thedxcompany.com' target="_blank">Founder/Software Engineer @ The DX Company</a></Card.Title>
                           <Card.Description>
                           <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
-                            <li>Started The DX Company - a data analytics studio and technology lab. We provide fractional analytics engineering as a service to startups and growing businesses. I have a technical role as a Segment owner as well as in building data pipelines and analytics setup.</li>
+                            <li>Started The DX Company - a digital experience and data analytics technology lab. We provide fractional analytics engineering as a service to startups and growing businesses as well as web engingeering capabilities.</li>
                           </ul>
                           </Card.Description>
                           

@@ -13,7 +13,7 @@ export default function Home() {
         <title>Home - Allester Ramayrat - Analytics engineer, data scientist, python developer</title>
         <meta
           name="description"
-          content="Portfolio of Allester Ramayrat - founder, analytics engineer, data scientist, python developer, san jose california"
+          content="Portfolio of Allester Ramayrat - founder, AI engineer, software engineer engineer, python developer, san jose california"
         />
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-1TXQDLC4GE" />
         <Script id="google-analytics">

@@ -83,9 +83,9 @@ export function About() {
               </h2>
               <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>Thank you for taking the time to visit my portfolio. As a technologist, my interests are in software development, machine learning, and computer vision.</p> 
-              <p>I currently work as an Analytics Engineer at <a className="font-semibold text-yellow-600" href="https://thedxcompany.com" target="_blank">The DX Company, a web analytics engineering studio</a> I founded this year.</p>
-              <p>I am also in the process of transitioning to software engineering with machine learning emphasis. I will complete the RustLang bootcamp by end of year and will start the dual-degree <a href="https://online.seas.upenn.edu/degrees/dual-degree/" target="_blank">MCIT/MSE-DS program</a> at Penn Engineering this Spring.</p>
-              <p>I look forward to connecting with you. Please reach out if you think we're a great fit as a contributor to your company or <a className="font-semibold text-yellow-600" href="https://thedxcompany.com/pricing" target="_blank">if you need help in setting up a solid foundation of web analytics for your business</a>.</p>
+              <p>Presently I work as a Software Engineer at my own company: <a className="font-semibold text-yellow-600" href="https://thedxcompany.com" target="_blank">The DX Company, a web and analytics engineering studio</a>.</p>
+              <p>I currently attend the <a href="https://online.seas.upenn.edu/degrees/dual-degree/" target="_blank">MCIT program</a> at Penn Engineering with plans to graduate with a <a href="https://online.seas.upenn.edu/degrees/dual-degree/mse-ai-online-dual-degree/" target="_target">dual degree in MSE-AI</a> in 2026.</p>
+              <p>I look forward to connecting with you. Please reach out if you think we're a great fit as a contributor to your company or <a className="font-semibold text-yellow-600" href="https://thedxcompany.com/pricing" target="_blank">if you need help in setting up a solid foundation of web engineering for your business</a>.</p>
               </div>
             </div>
             <div className="lg:pl-20">
