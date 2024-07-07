@@ -43,10 +43,10 @@ export function Experience() {
                           </Card.Description>
                           
                           <Items>
-                            <Badge>Segment</Badge>
-                            <Badge>Big Query</Badge>
                             <Badge>Python</Badge>
                             <Badge>RustLang</Badge>
+                            <Badge>ReactJs</Badge>
+                            <Badge>NodeJs SPA</Badge>
                           </Items>
                         </Card>
                       <Card.Eyebrow>JAN 2023 - PRESENT</Card.Eyebrow>
