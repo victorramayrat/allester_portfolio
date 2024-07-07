@@ -38,7 +38,7 @@ export function Experience() {
                           <Card.Title><a className="z-0" href='https://thedxcompany.com' target="_blank">Founder/Software Engineer @ The DX Company</a></Card.Title>
                           <Card.Description>
                           <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
-                            <li>Started The DX Company - a digital experience and data analytics technology lab. We provide fractional analytics engineering as a service to startups and growing businesses as well as web engingeering capabilities.</li>
+                            <li>Started The DX Company - a digital experience and data analytics technology lab. We provide fractional analytics engineering as a service and web engingeering to startups and growing businesses.</li>
                           </ul>
                           </Card.Description>
                           
