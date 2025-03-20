@@ -32,74 +32,71 @@ export function Experience() {
             <div className="mx-auto mt-16">
               <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
                 <div className="flex max-w-3xl flex-col space-y-16">
-                  
-                    <div className="md:grid md:grid-cols-4 md:items-baseline">
-                        <Card className="md:col-span-3">
-                          <Card.Title><a className="z-0" href='https://thedxcompany.com' target="_blank">Founder / Software Engineer @ The DX Company</a></Card.Title>
-                          <Card.Description>
-                          <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
-                            <li>Started The DX Company - a digital experience and data analytics technology lab. We provide fractional analytics engineering as a service and web engingeering to startups and growing businesses.</li>
-                          </ul>
-                          </Card.Description>
-                          
-                          <Items>
-                            <Badge>Python</Badge>
-                            <Badge>RustLang</Badge>
-                            <Badge>ReactJs</Badge>
-                            <Badge>NodeJs SPA</Badge>
-                          </Items>
-                        </Card>
+                  <div className="md:grid md:grid-cols-4 md:items-baseline">
+                      <Card className="md:col-span-3">
+                        <Card.Title><a className="z-0" href='https://thedxcompany.com' target="_blank">Co-founder / Software and Analytics Engineer @ The DX Company</a></Card.Title>
+                        <Card.Description>
+                        <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
+                          <li>Started The DX Company - a digital experience and data analytics technology lab. We provide fractional analytics engineering as well as digital experience design and development to startups and growing businesses.</li>
+                        </ul>
+                        </Card.Description>
+                        <Items>
+                          <Badge>Python</Badge>
+                          <Badge>Looker</Badge>
+                          <Badge>ReactJs</Badge>
+                          <Badge>MongoDB</Badge>
+                          <Badge>SQL</Badge>
+                        </Items>
+                      </Card>
                       <Card.Eyebrow>JAN 2023 - PRESENT</Card.Eyebrow>
                     </div>
-                  
                     <div className="md:grid md:grid-cols-4 md:items-baseline">
-                        <Card className="md:col-span-3">
-                          <Card.Title><a className="z-0" href='https://www.ccber.ucsb.edu/' target="_blank">Data Science Fellow @ CCBER</a></Card.Title>
-                          <Card.Description>
-                            <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
-                            <li className="py-3">Built a Photogrammetry Pipeline (Metashape) for reconstructing 3D bee models to generate comprehensive bee trait and image datasets; aided in the biological study of image and anatomical trait digitization of bees (Big Bee Project)</li>
-                            <li className="py-3">Reduced Reprojection Error (pix) from 0.84 to 0.41 and processing time by 75% of pre-existing bee models through improving data collection, data augmentation, and parameter tuning on 16+ photo sets containing 145+ macro images</li>
-                            <li className="py-3">Trained an object detection model (YOLOv8) on 8000+ labeled bee image data from 3D models and iNaturalist to recognize video frames featuring bees to reduce video analysis and image extraction time from hours to minutes.</li>
-                            </ul>
-                          </Card.Description>
-                          <Items>
-                            <a className="z-0" href='https://escholarship.org/uc/item/0th7b3mh' target="_blank">
-                              <Card.Cta className="float-left" >Interim Report</Card.Cta>
-                            </a>
-                            <a className="z-0" href='https://escholarship.org/uc/item/0hd7v9jt' target="_blank">
-                              <Card.Cta className="float-left">Poster</Card.Cta>
-                            </a>
-                          </Items>
-                          <Items>
-                            <Badge>Metashape</Badge>
-                            <Badge>YOLOv8</Badge>
+                      <Card className="md:col-span-3">                  
+                          <Card.Title><a className="z-0" href='https://vintra.io/' target="_blank">Data Scientist @ Vintra, Inc. (acq. Alarm.com)</a></Card.Title>
+                        <Card.Description>
+                        <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
+                          <li className="py-3">Built the Cloud Product User Activity Dashboard (Tableau) to display user activity on the cloud product; created an automated ETL pipeline (Google Apps Scripts) utilizing Vintra’s API to access the cloud product database (MongoDB)</li>
+                          <li className="py-3">Innovated the Density Mapping Tool to dynamically change Tableau backgrounds based on applied aggregations through the development of non-OOTB features in Tableau (Google Cloud Storage)</li>
+                          <li className="py-3">Built and designed the North Star Metric KPI’s Dashboard (Tableau) for the internal product team and an end-to-end batch processing pipeline to handle processes from file ingestion to refreshing the dashboard’s data.</li>
+                        <li className="py-3">Developed a Density Mapping Tool utilizing object detection data from Vintra’s REST API; presented as a product demo to the VP of internal security at a large social media company with our head of sales.</li>
+                          </ul>
+                        </Card.Description>
+                        <Items>
+                            <Badge>Tableau</Badge>
+                            <Badge>Google Apps Script</Badge>
+                            <Badge>MongoDB</Badge>
+                            <Badge>SQL</Badge>
                             <Badge>Python</Badge>
+                            <Badge>Google Cloud Platform</Badge>
                           </Items>
-                        </Card>
-                      <Card.Eyebrow>JAN 2023 - JUN 2023</Card.Eyebrow>
-                    </div>
-                  
-                    <div className="md:grid md:grid-cols-4 md:items-baseline">
-                        <Card className="md:col-span-3">                  
-                            <Card.Title><a className="z-0" href='https://vintra.io/' target="_blank">Data Scientist @ Vintra, Inc. (acq. Alarm.com)</a></Card.Title>
-                          <Card.Description>
-                          <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
-                            <li className="py-3">Built the Cloud Product User Activity Dashboard (Tableau) to display user activity on the cloud product; created an automated ETL pipeline (Google Apps Scripts) utilizing Vintra’s API to access the cloud product database (MongoDB)</li>
-                            <li className="py-3">Innovated the Density Mapping Tool to dynamically change Tableau backgrounds based on applied aggregations through the development of non-OOTB features in Tableau (Google Cloud Storage)</li>
-                            <li className="py-3">Built and designed the North Star Metric KPI’s Dashboard (Tableau) for the internal product team and an end-to-end batch processing pipeline to handle processes from file ingestion to refreshing the dashboard’s data.</li>
-                          <li className="py-3">Developed a Density Mapping Tool utilizing object detection data from Vintra’s REST API; presented as a product demo to the VP of internal security at a large social media company with our head of sales.</li>
-                            </ul>
-                          </Card.Description>
-                          <Items>
-                              <Badge>Tableau</Badge>
-                              <Badge>Google Apps Script</Badge>
-                              <Badge>MongoDB</Badge>
-                              <Badge>SQL</Badge>
-                              <Badge>Python</Badge>
-                              <Badge>Google Cloud Platform</Badge>
-                            </Items>
-                        </Card>
+                      </Card>
                       <Card.Eyebrow>JUN 2021 - DEC 2022</Card.Eyebrow>
+                    </div>
+                    <div className="md:grid md:grid-cols-4 md:items-baseline">
+                      <Card className="md:col-span-3">
+                        <Card.Title><a className="z-0" href='https://www.ccber.ucsb.edu/' target="_blank">Data Science Fellow @ CCBER</a></Card.Title>
+                        <Card.Description>
+                          <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
+                          <li className="py-3">Built a Photogrammetry Pipeline (Metashape) for reconstructing 3D bee models to generate comprehensive bee trait and image datasets; aided in the biological study of image and anatomical trait digitization of bees (Big Bee Project)</li>
+                          <li className="py-3">Reduced Reprojection Error (pix) from 0.84 to 0.41 and processing time by 75% of pre-existing bee models through improving data collection, data augmentation, and parameter tuning on 16+ photo sets containing 145+ macro images</li>
+                          <li className="py-3">Trained an object detection model (YOLOv8) on 8000+ labeled bee image data from 3D models and iNaturalist to recognize video frames featuring bees to reduce video analysis and image extraction time from hours to minutes.</li>
+                          </ul>
+                        </Card.Description>
+                        <Items>
+                          <a className="z-0" href='https://escholarship.org/uc/item/0th7b3mh' target="_blank">
+                            <Card.Cta className="float-left" >Interim Report</Card.Cta>
+                          </a>
+                          <a className="z-0" href='https://escholarship.org/uc/item/0hd7v9jt' target="_blank">
+                            <Card.Cta className="float-left">Poster</Card.Cta>
+                          </a>
+                        </Items>
+                        <Items>
+                          <Badge>Metashape</Badge>
+                          <Badge>YOLOv8</Badge>
+                          <Badge>Python</Badge>
+                        </Items>
+                      </Card>
+                      <Card.Eyebrow>Spring 2023</Card.Eyebrow>
                     </div>
                 </div>
               </div>
