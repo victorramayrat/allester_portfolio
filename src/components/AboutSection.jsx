@@ -83,9 +83,8 @@ export function About() {
               </h2>
               <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>Thank you for taking the time to visit my portfolio. As a technologist, my interests are in software development, machine learning, and computer vision.</p> 
-              <p>I currently attend the <a href="https://online.seas.upenn.edu/degrees/dual-degree/" target="_blank">MCIT program</a> at Penn Engineering with plans to graduate with a <a href="https://online.seas.upenn.edu/degrees/dual-degree/mse-ai-online-dual-degree/" target="_target">dual degree in MSE-AI</a> in 2026.</p>
-              <p>On my free time, I am building a social agent providing sentiment analysis for businesses through <a href="https://https://socient.ai/" target="_blank">SocientAI</a>. I also provide freelance analytics engineering services to startups and growing businesses.</p>
-              <p>I look forward to connecting with you. Please reach out if you think we're a great fit as a contributor to your company or if you need help in setting up a solid foundation of analytics for your business.</p>
+              <p>I currently attend the Dual Masters degree program at Penn Engineering. So far I have graduated from the <a href="https://online.seas.upenn.edu/degrees/dual-degree/" target="_blank">MCIT program</a> and on track to graduate with <a href="https://online.engineering.upenn.edu/course-catalog/mse-ai-online/" target="_target">MSE-AI</a> in Spring 2027.</p>
+              <p>After a summmer internship at Barracuda Networks as an Analytics Engineer over summer, I am doing another internship as a Software Development Engineer at Amazon, where I will work with the One Grocery team in AI and Machine Learning.</p>
               </div>
             </div>
             <div className="lg:pl-20">
