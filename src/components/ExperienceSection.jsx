@@ -52,6 +52,52 @@ export function Experience() {
                     </div> */}
                     <div className="md:grid md:grid-cols-4 md:items-baseline">
                       <Card className="md:col-span-3">                  
+                          <Card.Title><a className="z-0" href='https://www.aboutamazon.com/news/company-news/amazon-fresh-go-stores-closing-expanding-whole-foods' target="_blank">SDE - Intern @ Amazon</a></Card.Title>
+                        <Card.Description>
+                        <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
+                          <li className="py-3">Build internal platform and tooling within Amazon Groceries business unit</li></ul>
+                        </Card.Description>
+                        <Items>
+                            <Badge>Java</Badge>
+                            <Badge>AWS</Badge>
+                          </Items>
+                      </Card>
+                      <Card.Eyebrow>SEP 2026 - Present</Card.Eyebrow>
+                    </div>
+                    <div className="md:grid md:grid-cols-4 md:items-baseline">
+                      <Card className="md:col-span-3">                  
+                          <Card.Title><a className="z-0" href='https://barracuda.com' target="_blank">Analytics Engineer - Intern @ Barracuda Networks</a></Card.Title>
+                        <Card.Description>
+                        <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
+                          <li className="py-3">Building scalable data pipelines, managing GTM (Go-to-Market) data infrastructure, and creating business dashboards.</li></ul>
+                        </Card.Description>
+                        <Items>
+                            <Badge>Databricks</Badge>
+                            <Badge>SQL</Badge>
+                            <Badge>Python</Badge>
+                            <Badge>Power BI</Badge>
+                          </Items>
+                      </Card>
+                      <Card.Eyebrow>JUL 2026 - SEP 2026</Card.Eyebrow>
+                    </div>
+                    <div className="md:grid md:grid-cols-4 md:items-baseline">
+                      <Card className="md:col-span-3">                  
+                          <Card.Title><a className="z-0" href='https://pegasusstrategy.co' target="_blank">Fractional Analytics Engineer @ Pegasus</a></Card.Title>
+                        <Card.Description>
+                        <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
+                          <li className="py-3">Work with the go-to-market team in providing data visualizations and dashboards for web traffic, attribution, and metrics analysis.</li></ul>
+                        </Card.Description>
+                        <Items>
+                            <Badge>Looker</Badge>
+                            <Badge>SQL</Badge>
+                            <Badge>Python</Badge>
+                            <Badge>Google Cloud Platform</Badge>
+                          </Items>
+                      </Card>
+                      <Card.Eyebrow>SEP 2025 - MAY 2026</Card.Eyebrow>
+                    </div>
+                    <div className="md:grid md:grid-cols-4 md:items-baseline">
+                      <Card className="md:col-span-3">                  
                           <Card.Title><a className="z-0" href='https://vintra.io/' target="_blank">Data Scientist @ Vintra, Inc. (acq. Alarm.com)</a></Card.Title>
                         <Card.Description>
                         <ul className="list-outside list-disc ml-6 marker:text-yellow-600">
